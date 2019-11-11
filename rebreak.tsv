@@ -1,0 +1,835 @@
+index	promptID	pairID	sentence1_binary_parse	sentence2_binary_parse	sentence1_parse	sentence2_parse	sentence1	sentence2	label1	label2	label3	label4	label5	gold_label
+0	a	b	d	e	f	g	h	A man is talking to someone in a car.	A man is talking to someone in a taxi.	a	b	c	d	e	neutral
+1	a	b	d	e	f	g	h	A man is talking to someone in a taxi.	A man is talking to someone in a car.	a	b	c	d	e	entailment
+2	a	b	d	e	f	g	h	A man is talking to someone in a car.	A man is talking to someone in a convertible.	a	b	c	d	e	neutral
+3	a	b	d	e	f	g	h	A man is talking to someone in a convertible.	A man is talking to someone in a car.	a	b	c	d	e	entailment
+4	a	b	d	e	f	g	h	A man is talking to someone in a car.	A man is talking to someone in a jeep.	a	b	c	d	e	neutral
+5	a	b	d	e	f	g	h	A man is talking to someone in a jeep.	A man is talking to someone in a car.	a	b	c	d	e	entailment
+6	a	b	d	e	f	g	h	A man is talking to someone in a car.	A man is talking to someone in a SUV.	a	b	c	d	e	neutral
+7	a	b	d	e	f	g	h	A man is talking to someone in a SUV.	A man is talking to someone in a car.	a	b	c	d	e	entailment
+8	a	b	d	e	f	g	h	they are playing guitar on live concert.	they are playing instrument on live concert.	a	b	c	d	e	entailment
+9	a	b	d	e	f	g	h	they are playing instrument on live concert.	they are playing guitar on live concert.	a	b	c	d	e	neutral
+10	a	b	d	e	f	g	h	Outside by the trees, a woman wearing jeans and red jacket throws something for a German shepherd to chase.	Outside by the elms, a woman wearing jeans and red jacket throws something for a German shepherd to chase.	a	b	c	d	e	neutral
+11	a	b	d	e	f	g	h	Outside by the elms, a woman wearing jeans and red jacket throws something for a German shepherd to chase.	Outside by the trees, a woman wearing jeans and red jacket throws something for a German shepherd to chase.	a	b	c	d	e	entailment
+12	a	b	d	e	f	g	h	A couple of hikers cross a bridge.	A couple of hikers cross a structure.	a	b	c	d	e	entailment
+13	a	b	d	e	f	g	h	A couple of hikers cross a structure.	A couple of hikers cross a bridge.	a	b	c	d	e	neutral
+14	a	b	d	e	f	g	h	A couple of hikers cross a bridge.	A couple of hikers cross a footbridge.	a	b	c	d	e	neutral
+15	a	b	d	e	f	g	h	A couple of hikers cross a footbridge.	A couple of hikers cross a bridge.	a	b	c	d	e	entailment
+16	a	b	d	e	f	g	h	Small child with black hair standing in car track near sunflowers.	Small child with black hair standing in car track near flowers.	a	b	c	d	e	entailment
+17	a	b	d	e	f	g	h	Small child with black hair standing in car track near flowers.	Small child with black hair standing in car track near sunflowers.	a	b	c	d	e	neutral
+18	a	b	d	e	f	g	h	Small child with black hair standing in car track near sunflowers.	Small child with black hair standing in car track near plants.	a	b	c	d	e	entailment
+19	a	b	d	e	f	g	h	Small child with black hair standing in car track near plants.	Small child with black hair standing in car track near sunflowers.	a	b	c	d	e	neutral
+20	a	b	d	e	f	g	h	Two dogs play with a green ball on a wooden deck.	Two dogs play with a green baseball on a wooden deck.	a	b	c	d	e	neutral
+21	a	b	d	e	f	g	h	Two dogs play with a green baseball on a wooden deck.	Two dogs play with a green ball on a wooden deck.	a	b	c	d	e	entailment
+22	a	b	d	e	f	g	h	Two dogs play with a green ball on a wooden deck.	Two dogs play with a green basketball on a wooden deck.	a	b	c	d	e	neutral
+23	a	b	d	e	f	g	h	Two dogs play with a green basketball on a wooden deck.	Two dogs play with a green ball on a wooden deck.	a	b	c	d	e	entailment
+24	a	b	d	e	f	g	h	Two dogs play with a green ball on a wooden deck.	Two dogs play with a green volleyball on a wooden deck.	a	b	c	d	e	neutral
+25	a	b	d	e	f	g	h	Two dogs play with a green volleyball on a wooden deck.	Two dogs play with a green ball on a wooden deck.	a	b	c	d	e	entailment
+26	a	b	d	e	f	g	h	An Asian woman cutting the stems of a green leafy vegetable at a market.	An Asian woman cutting the stems of a green leafy cabbage at a market.	a	b	c	d	e	neutral
+27	a	b	d	e	f	g	h	An Asian woman cutting the stems of a green leafy cabbage at a market.	An Asian woman cutting the stems of a green leafy vegetable at a market.	a	b	c	d	e	entailment
+28	a	b	d	e	f	g	h	An Asian woman cutting the stems of a green leafy vegetable at a market.	An Asian woman cutting the stems of a green leafy spinach at a market.	a	b	c	d	e	neutral
+29	a	b	d	e	f	g	h	An Asian woman cutting the stems of a green leafy spinach at a market.	An Asian woman cutting the stems of a green leafy vegetable at a market.	a	b	c	d	e	entailment
+30	a	b	d	e	f	g	h	An Asian woman cutting the stems of a green leafy vegetable at a market.	An Asian woman cutting the stems of a green leafy sprout at a market.	a	b	c	d	e	neutral
+31	a	b	d	e	f	g	h	An Asian woman cutting the stems of a green leafy sprout at a market.	An Asian woman cutting the stems of a green leafy vegetable at a market.	a	b	c	d	e	entailment
+32	a	b	d	e	f	g	h	An Asian woman cutting the stems of a green leafy vegetable at a market.	An Asian woman cutting the stems of a green leafy kale at a market.	a	b	c	d	e	neutral
+33	a	b	d	e	f	g	h	An Asian woman cutting the stems of a green leafy kale at a market.	An Asian woman cutting the stems of a green leafy vegetable at a market.	a	b	c	d	e	entailment
+34	a	b	d	e	f	g	h	An Asian woman cutting the stems of a green leafy vegetable at a market.	An Asian woman cutting the stems of a green leafy lettuce at a market.	a	b	c	d	e	neutral
+35	a	b	d	e	f	g	h	An Asian woman cutting the stems of a green leafy lettuce at a market.	An Asian woman cutting the stems of a green leafy vegetable at a market.	a	b	c	d	e	entailment
+36	a	b	d	e	f	g	h	A young man is hanging on a rope above beautiful blue water.	A young adult is hanging on a rope above beautiful blue water.	a	b	c	d	e	entailment
+37	a	b	d	e	f	g	h	A young adult is hanging on a rope above beautiful blue water.	A young man is hanging on a rope above beautiful blue water.	a	b	c	d	e	neutral
+38	a	b	d	e	f	g	h	A young man is hanging on a rope above beautiful blue water.	A young person is hanging on a rope above beautiful blue water.	a	b	c	d	e	entailment
+39	a	b	d	e	f	g	h	A young person is hanging on a rope above beautiful blue water.	A young man is hanging on a rope above beautiful blue water.	a	b	c	d	e	neutral
+40	a	b	d	e	f	g	h	Children play fight with swords.	Children play fight with weapons.	a	b	c	d	e	entailment
+41	a	b	d	e	f	g	h	Children play fight with weapons.	Children play fight with swords.	a	b	c	d	e	neutral
+42	a	b	d	e	f	g	h	A surfer rides the crashing waves while another follows behind.	A person rides the crashing waves while another follows behind.	a	b	c	d	e	entailment
+43	a	b	d	e	f	g	h	A person rides the crashing waves while another follows behind.	A surfer rides the crashing waves while another follows behind.	a	b	c	d	e	neutral
+44	a	b	d	e	f	g	h	A white woman wearing a white shirt sitting and looking at her plate of food.	A white woman wearing a white shirt sitting and looking at her plate of eggs.	a	b	c	d	e	neutral
+45	a	b	d	e	f	g	h	A white woman wearing a white shirt sitting and looking at her plate of eggs.	A white woman wearing a white shirt sitting and looking at her plate of food.	a	b	c	d	e	entailment
+46	a	b	d	e	f	g	h	A white woman wearing a white shirt sitting and looking at her plate of food.	A white woman wearing a white shirt sitting and looking at her plate of cheese.	a	b	c	d	e	neutral
+47	a	b	d	e	f	g	h	A white woman wearing a white shirt sitting and looking at her plate of cheese.	A white woman wearing a white shirt sitting and looking at her plate of food.	a	b	c	d	e	entailment
+48	a	b	d	e	f	g	h	A white woman wearing a white shirt sitting and looking at her plate of food.	A white woman wearing a white shirt sitting and looking at her plate of corn.	a	b	c	d	e	neutral
+49	a	b	d	e	f	g	h	A white woman wearing a white shirt sitting and looking at her plate of corn.	A white woman wearing a white shirt sitting and looking at her plate of food.	a	b	c	d	e	entailment
+50	a	b	d	e	f	g	h	A white woman wearing a white shirt sitting and looking at her plate of food.	A white woman wearing a white shirt sitting and looking at her plate of rice.	a	b	c	d	e	neutral
+51	a	b	d	e	f	g	h	A white woman wearing a white shirt sitting and looking at her plate of rice.	A white woman wearing a white shirt sitting and looking at her plate of food.	a	b	c	d	e	entailment
+52	a	b	d	e	f	g	h	A white woman wearing a white shirt sitting and looking at her plate of food.	A white woman wearing a white shirt sitting and looking at her plate of bread.	a	b	c	d	e	neutral
+53	a	b	d	e	f	g	h	A white woman wearing a white shirt sitting and looking at her plate of bread.	A white woman wearing a white shirt sitting and looking at her plate of food.	a	b	c	d	e	entailment
+54	a	b	d	e	f	g	h	A woman in a polka-dot shirt and black boots is walking down the street and being approached by a man in a black jacket and jeans.	A adult in a polka-dot shirt and black boots is walking down the street and being approached by a man in a black jacket and jeans.	a	b	c	d	e	entailment
+55	a	b	d	e	f	g	h	A adult in a polka-dot shirt and black boots is walking down the street and being approached by a man in a black jacket and jeans.	A woman in a polka-dot shirt and black boots is walking down the street and being approached by a man in a black jacket and jeans.	a	b	c	d	e	neutral
+56	a	b	d	e	f	g	h	A woman in a polka-dot shirt and black boots is walking down the street and being approached by a man in a black jacket and jeans.	A individual in a polka-dot shirt and black boots is walking down the street and being approached by a man in a black jacket and jeans.	a	b	c	d	e	entailment
+57	a	b	d	e	f	g	h	A individual in a polka-dot shirt and black boots is walking down the street and being approached by a man in a black jacket and jeans.	A woman in a polka-dot shirt and black boots is walking down the street and being approached by a man in a black jacket and jeans.	a	b	c	d	e	neutral
+58	a	b	d	e	f	g	h	A woman in a polka-dot shirt and black boots is walking down the street and being approached by a man in a black jacket and jeans.	A housewife in a polka-dot shirt and black boots is walking down the street and being approached by a man in a black jacket and jeans.	a	b	c	d	e	neutral
+59	a	b	d	e	f	g	h	A housewife in a polka-dot shirt and black boots is walking down the street and being approached by a man in a black jacket and jeans.	A woman in a polka-dot shirt and black boots is walking down the street and being approached by a man in a black jacket and jeans.	a	b	c	d	e	entailment
+60	a	b	d	e	f	g	h	A woman in a polka-dot shirt and black boots is walking down the street and being approached by a man in a black jacket and jeans.	A mother in a polka-dot shirt and black boots is walking down the street and being approached by a man in a black jacket and jeans.	a	b	c	d	e	neutral
+61	a	b	d	e	f	g	h	A mother in a polka-dot shirt and black boots is walking down the street and being approached by a man in a black jacket and jeans.	A woman in a polka-dot shirt and black boots is walking down the street and being approached by a man in a black jacket and jeans.	a	b	c	d	e	entailment
+62	a	b	d	e	f	g	h	A woman in a polka-dot shirt and black boots is walking down the street and being approached by a man in a black jacket and jeans.	A prostitute in a polka-dot shirt and black boots is walking down the street and being approached by a man in a black jacket and jeans.	a	b	c	d	e	neutral
+63	a	b	d	e	f	g	h	A prostitute in a polka-dot shirt and black boots is walking down the street and being approached by a man in a black jacket and jeans.	A woman in a polka-dot shirt and black boots is walking down the street and being approached by a man in a black jacket and jeans.	a	b	c	d	e	entailment
+64	a	b	d	e	f	g	h	A woman in a polka-dot shirt and black boots is walking down the street and being approached by a man in a black jacket and jeans.	A granny in a polka-dot shirt and black boots is walking down the street and being approached by a man in a black jacket and jeans.	a	b	c	d	e	neutral
+65	a	b	d	e	f	g	h	A granny in a polka-dot shirt and black boots is walking down the street and being approached by a man in a black jacket and jeans.	A woman in a polka-dot shirt and black boots is walking down the street and being approached by a man in a black jacket and jeans.	a	b	c	d	e	entailment
+66	a	b	d	e	f	g	h	A woman in a polka-dot shirt and black boots is walking down the street and being approached by a man in a black jacket and jeans.	A widow in a polka-dot shirt and black boots is walking down the street and being approached by a man in a black jacket and jeans.	a	b	c	d	e	neutral
+67	a	b	d	e	f	g	h	A widow in a polka-dot shirt and black boots is walking down the street and being approached by a man in a black jacket and jeans.	A woman in a polka-dot shirt and black boots is walking down the street and being approached by a man in a black jacket and jeans.	a	b	c	d	e	entailment
+68	a	b	d	e	f	g	h	Two young children are walking down a tree lined path.	Two young orphans are walking down a tree lined path.	a	b	c	d	e	neutral
+69	a	b	d	e	f	g	h	Two young orphans are walking down a tree lined path.	Two young children are walking down a tree lined path.	a	b	c	d	e	entailment
+70	a	b	d	e	f	g	h	Men work on the paint of a side of an old building.	Men work on the paint of a side of an old hotel.	a	b	c	d	e	neutral
+71	a	b	d	e	f	g	h	Men work on the paint of a side of an old hotel.	Men work on the paint of a side of an old building.	a	b	c	d	e	entailment
+72	a	b	d	e	f	g	h	Men work on the paint of a side of an old building.	Men work on the paint of a side of an old cinema.	a	b	c	d	e	neutral
+73	a	b	d	e	f	g	h	Men work on the paint of a side of an old cinema.	Men work on the paint of a side of an old building.	a	b	c	d	e	entailment
+74	a	b	d	e	f	g	h	Men work on the paint of a side of an old building.	Men work on the paint of a side of an old planetarium.	a	b	c	d	e	neutral
+75	a	b	d	e	f	g	h	Men work on the paint of a side of an old planetarium.	Men work on the paint of a side of an old building.	a	b	c	d	e	entailment
+76	a	b	d	e	f	g	h	Men work on the paint of a side of an old building.	Men work on the paint of a side of an old hospital.	a	b	c	d	e	neutral
+77	a	b	d	e	f	g	h	Men work on the paint of a side of an old hospital.	Men work on the paint of a side of an old building.	a	b	c	d	e	entailment
+78	a	b	d	e	f	g	h	Men work on the paint of a side of an old building.	Men work on the paint of a side of an old palace.	a	b	c	d	e	neutral
+79	a	b	d	e	f	g	h	Men work on the paint of a side of an old palace.	Men work on the paint of a side of an old building.	a	b	c	d	e	entailment
+80	a	b	d	e	f	g	h	Men work on the paint of a side of an old building.	Men work on the paint of a side of an old stable.	a	b	c	d	e	neutral
+81	a	b	d	e	f	g	h	Men work on the paint of a side of an old stable.	Men work on the paint of a side of an old building.	a	b	c	d	e	entailment
+82	a	b	d	e	f	g	h	Men work on the paint of a side of an old building.	Men work on the paint of a side of an old dormitory.	a	b	c	d	e	neutral
+83	a	b	d	e	f	g	h	Men work on the paint of a side of an old dormitory.	Men work on the paint of a side of an old building.	a	b	c	d	e	entailment
+84	a	b	d	e	f	g	h	Men work on the paint of a side of an old building.	Men work on the paint of a side of an old courthouse.	a	b	c	d	e	neutral
+85	a	b	d	e	f	g	h	Men work on the paint of a side of an old courthouse.	Men work on the paint of a side of an old building.	a	b	c	d	e	entailment
+86	a	b	d	e	f	g	h	Men work on the paint of a side of an old building.	Men work on the paint of a side of an old theater.	a	b	c	d	e	neutral
+87	a	b	d	e	f	g	h	Men work on the paint of a side of an old theater.	Men work on the paint of a side of an old building.	a	b	c	d	e	entailment
+88	a	b	d	e	f	g	h	Men work on the paint of a side of an old building.	Men work on the paint of a side of an old church.	a	b	c	d	e	neutral
+89	a	b	d	e	f	g	h	Men work on the paint of a side of an old church.	Men work on the paint of a side of an old building.	a	b	c	d	e	entailment
+90	a	b	d	e	f	g	h	A group of men and women are singing a song.	A group of men and women are singing a carol.	a	b	c	d	e	neutral
+91	a	b	d	e	f	g	h	A group of men and women are singing a carol.	A group of men and women are singing a song.	a	b	c	d	e	entailment
+92	a	b	d	e	f	g	h	A group of men and women are singing a song.	A group of men and women are singing a hymn.	a	b	c	d	e	neutral
+93	a	b	d	e	f	g	h	A group of men and women are singing a hymn.	A group of men and women are singing a song.	a	b	c	d	e	entailment
+94	a	b	d	e	f	g	h	A group of men and women are singing a song.	A group of men and women are singing a anthem.	a	b	c	d	e	neutral
+95	a	b	d	e	f	g	h	A group of men and women are singing a anthem.	A group of men and women are singing a song.	a	b	c	d	e	entailment
+96	a	b	d	e	f	g	h	People in a brown boat float down the street of a city built on water.	People in a brown gondola float down the street of a city built on water.	a	b	c	d	e	neutral
+97	a	b	d	e	f	g	h	People in a brown gondola float down the street of a city built on water.	People in a brown boat float down the street of a city built on water.	a	b	c	d	e	entailment
+98	a	b	d	e	f	g	h	People in a brown boat float down the street of a city built on water.	People in a brown kayak float down the street of a city built on water.	a	b	c	d	e	neutral
+99	a	b	d	e	f	g	h	People in a brown kayak float down the street of a city built on water.	People in a brown boat float down the street of a city built on water.	a	b	c	d	e	entailment
+100	a	b	d	e	f	g	h	Two dogs are running together down a with path covered in dead leaves.	Two mammals are running together down a with path covered in dead leaves.	a	b	c	d	e	entailment
+101	a	b	d	e	f	g	h	Two mammals are running together down a with path covered in dead leaves.	Two dogs are running together down a with path covered in dead leaves.	a	b	c	d	e	neutral
+102	a	b	d	e	f	g	h	Two dogs are running together down a with path covered in dead leaves.	Two spaniels are running together down a with path covered in dead leaves.	a	b	c	d	e	neutral
+103	a	b	d	e	f	g	h	Two spaniels are running together down a with path covered in dead leaves.	Two dogs are running together down a with path covered in dead leaves.	a	b	c	d	e	entailment
+104	a	b	d	e	f	g	h	Two dogs are running together down a with path covered in dead leaves.	Two dalmatians are running together down a with path covered in dead leaves.	a	b	c	d	e	neutral
+105	a	b	d	e	f	g	h	Two dalmatians are running together down a with path covered in dead leaves.	Two dogs are running together down a with path covered in dead leaves.	a	b	c	d	e	entailment
+106	a	b	d	e	f	g	h	Two dogs are running together down a with path covered in dead leaves.	Two corgis are running together down a with path covered in dead leaves.	a	b	c	d	e	neutral
+107	a	b	d	e	f	g	h	Two corgis are running together down a with path covered in dead leaves.	Two dogs are running together down a with path covered in dead leaves.	a	b	c	d	e	entailment
+108	a	b	d	e	f	g	h	Two dogs are running together down a with path covered in dead leaves.	Two terriers are running together down a with path covered in dead leaves.	a	b	c	d	e	neutral
+109	a	b	d	e	f	g	h	Two terriers are running together down a with path covered in dead leaves.	Two dogs are running together down a with path covered in dead leaves.	a	b	c	d	e	entailment
+110	a	b	d	e	f	g	h	Two dogs are running together down a with path covered in dead leaves.	Two beagles are running together down a with path covered in dead leaves.	a	b	c	d	e	neutral
+111	a	b	d	e	f	g	h	Two beagles are running together down a with path covered in dead leaves.	Two dogs are running together down a with path covered in dead leaves.	a	b	c	d	e	entailment
+112	a	b	d	e	f	g	h	Two dogs are running together down a with path covered in dead leaves.	Two poodles are running together down a with path covered in dead leaves.	a	b	c	d	e	neutral
+113	a	b	d	e	f	g	h	Two poodles are running together down a with path covered in dead leaves.	Two dogs are running together down a with path covered in dead leaves.	a	b	c	d	e	entailment
+114	a	b	d	e	f	g	h	Two dogs are running together down a with path covered in dead leaves.	Two greyhounds are running together down a with path covered in dead leaves.	a	b	c	d	e	neutral
+115	a	b	d	e	f	g	h	Two greyhounds are running together down a with path covered in dead leaves.	Two dogs are running together down a with path covered in dead leaves.	a	b	c	d	e	entailment
+116	a	b	d	e	f	g	h	Two dogs are running together down a with path covered in dead leaves.	Two huskies are running together down a with path covered in dead leaves.	a	b	c	d	e	neutral
+117	a	b	d	e	f	g	h	Two huskies are running together down a with path covered in dead leaves.	Two dogs are running together down a with path covered in dead leaves.	a	b	c	d	e	entailment
+118	a	b	d	e	f	g	h	A young man playing with a large yo-yo.	A young man playing with a large toy.	a	b	c	d	e	entailment
+119	a	b	d	e	f	g	h	A young man playing with a large toy.	A young man playing with a large yo-yo.	a	b	c	d	e	neutral
+120	a	b	d	e	f	g	h	A group of little kids enjoy sandwiches and a slush at a picnic.	A group of little kids enjoy foods and a slush at a picnic.	a	b	c	d	e	entailment
+121	a	b	d	e	f	g	h	A group of little kids enjoy foods and a slush at a picnic.	A group of little kids enjoy sandwiches and a slush at a picnic.	a	b	c	d	e	neutral
+122	a	b	d	e	f	g	h	A man wearing a multi-color coat is playing the guitar on the street.	A man wearing a multi-color coat is playing the instrument on the street.	a	b	c	d	e	entailment
+123	a	b	d	e	f	g	h	A man wearing a multi-color coat is playing the instrument on the street.	A man wearing a multi-color coat is playing the guitar on the street.	a	b	c	d	e	neutral
+124	a	b	d	e	f	g	h	A woman who is fixing her computer while showing her daughter what it is doing.	A woman who is fixing her machine while showing her daughter what it is doing.	a	b	c	d	e	entailment
+125	a	b	d	e	f	g	h	A woman who is fixing her machine while showing her daughter what it is doing.	A woman who is fixing her computer while showing her daughter what it is doing.	a	b	c	d	e	neutral
+126	a	b	d	e	f	g	h	A woman who is fixing her computer while showing her daughter what it is doing.	A woman who is fixing her device while showing her daughter what it is doing.	a	b	c	d	e	entailment
+127	a	b	d	e	f	g	h	A woman who is fixing her device while showing her daughter what it is doing.	A woman who is fixing her computer while showing her daughter what it is doing.	a	b	c	d	e	neutral
+128	a	b	d	e	f	g	h	Child sliding down slide into pool of water.	Child sliding down slide into pool of saltwater.	a	b	c	d	e	neutral
+129	a	b	d	e	f	g	h	Child sliding down slide into pool of saltwater.	Child sliding down slide into pool of water.	a	b	c	d	e	entailment
+130	a	b	d	e	f	g	h	Child sliding down slide into pool of water.	Child sliding down slide into pool of rainwater.	a	b	c	d	e	neutral
+131	a	b	d	e	f	g	h	Child sliding down slide into pool of rainwater.	Child sliding down slide into pool of water.	a	b	c	d	e	entailment
+132	a	b	d	e	f	g	h	A black dog chases birds on the shoreline	A black dog chases animals on the shoreline	a	b	c	d	e	entailment
+133	a	b	d	e	f	g	h	A black dog chases animals on the shoreline	A black dog chases birds on the shoreline	a	b	c	d	e	neutral
+134	a	b	d	e	f	g	h	A black dog chases birds on the shoreline	A black dog chases eagles on the shoreline	a	b	c	d	e	neutral
+135	a	b	d	e	f	g	h	A black dog chases eagles on the shoreline	A black dog chases birds on the shoreline	a	b	c	d	e	entailment
+136	a	b	d	e	f	g	h	A black dog chases birds on the shoreline	A black dog chases swans on the shoreline	a	b	c	d	e	neutral
+137	a	b	d	e	f	g	h	A black dog chases swans on the shoreline	A black dog chases birds on the shoreline	a	b	c	d	e	entailment
+138	a	b	d	e	f	g	h	A black dog chases birds on the shoreline	A black dog chases peacocks on the shoreline	a	b	c	d	e	neutral
+139	a	b	d	e	f	g	h	A black dog chases peacocks on the shoreline	A black dog chases birds on the shoreline	a	b	c	d	e	entailment
+140	a	b	d	e	f	g	h	A black dog chases birds on the shoreline	A black dog chases swallows on the shoreline	a	b	c	d	e	neutral
+141	a	b	d	e	f	g	h	A black dog chases swallows on the shoreline	A black dog chases birds on the shoreline	a	b	c	d	e	entailment
+142	a	b	d	e	f	g	h	A black dog chases birds on the shoreline	A black dog chases owls on the shoreline	a	b	c	d	e	neutral
+143	a	b	d	e	f	g	h	A black dog chases owls on the shoreline	A black dog chases birds on the shoreline	a	b	c	d	e	entailment
+144	a	b	d	e	f	g	h	A black dog chases birds on the shoreline	A black dog chases cranes on the shoreline	a	b	c	d	e	neutral
+145	a	b	d	e	f	g	h	A black dog chases cranes on the shoreline	A black dog chases birds on the shoreline	a	b	c	d	e	entailment
+146	a	b	d	e	f	g	h	A black dog chases birds on the shoreline	A black dog chases ravens on the shoreline	a	b	c	d	e	neutral
+147	a	b	d	e	f	g	h	A black dog chases ravens on the shoreline	A black dog chases birds on the shoreline	a	b	c	d	e	entailment
+148	a	b	d	e	f	g	h	A black dog chases birds on the shoreline	A black dog chases ducks on the shoreline	a	b	c	d	e	neutral
+149	a	b	d	e	f	g	h	A black dog chases ducks on the shoreline	A black dog chases birds on the shoreline	a	b	c	d	e	entailment
+150	a	b	d	e	f	g	h	A black dog chases birds on the shoreline	A black dog chases parrots on the shoreline	a	b	c	d	e	neutral
+151	a	b	d	e	f	g	h	A black dog chases parrots on the shoreline	A black dog chases birds on the shoreline	a	b	c	d	e	entailment
+152	a	b	d	e	f	g	h	A black dog chases birds on the shoreline	A black dog chases turkeys on the shoreline	a	b	c	d	e	neutral
+153	a	b	d	e	f	g	h	A black dog chases turkeys on the shoreline	A black dog chases birds on the shoreline	a	b	c	d	e	entailment
+154	a	b	d	e	f	g	h	A black dog chases birds on the shoreline	A black dog chases doves on the shoreline	a	b	c	d	e	neutral
+155	a	b	d	e	f	g	h	A black dog chases doves on the shoreline	A black dog chases birds on the shoreline	a	b	c	d	e	entailment
+156	a	b	d	e	f	g	h	A black dog chases birds on the shoreline	A black dog chases geese on the shoreline	a	b	c	d	e	neutral
+157	a	b	d	e	f	g	h	A black dog chases geese on the shoreline	A black dog chases birds on the shoreline	a	b	c	d	e	entailment
+158	a	b	d	e	f	g	h	A black dog chases birds on the shoreline	A black dog chases pelicans on the shoreline	a	b	c	d	e	neutral
+159	a	b	d	e	f	g	h	A black dog chases pelicans on the shoreline	A black dog chases birds on the shoreline	a	b	c	d	e	entailment
+160	a	b	d	e	f	g	h	A black dog chases birds on the shoreline	A black dog chases crows on the shoreline	a	b	c	d	e	neutral
+161	a	b	d	e	f	g	h	A black dog chases crows on the shoreline	A black dog chases birds on the shoreline	a	b	c	d	e	entailment
+162	a	b	d	e	f	g	h	A black dog chases birds on the shoreline	A black dog chases chickens on the shoreline	a	b	c	d	e	neutral
+163	a	b	d	e	f	g	h	A black dog chases chickens on the shoreline	A black dog chases birds on the shoreline	a	b	c	d	e	entailment
+164	a	b	d	e	f	g	h	A black dog chases birds on the shoreline	A black dog chases hedge sparrows on the shoreline	a	b	c	d	e	neutral
+165	a	b	d	e	f	g	h	A black dog chases hedge sparrows on the shoreline	A black dog chases birds on the shoreline	a	b	c	d	e	entailment
+166	a	b	d	e	f	g	h	A black dog chases birds on the shoreline	A black dog chases penguins on the shoreline	a	b	c	d	e	neutral
+167	a	b	d	e	f	g	h	A black dog chases penguins on the shoreline	A black dog chases birds on the shoreline	a	b	c	d	e	entailment
+168	a	b	d	e	f	g	h	A woman wearing a red helmet with a white star on it, rollerblading.	A woman wearing a red helmet with a white shape on it, rollerblading.	a	b	c	d	e	entailment
+169	a	b	d	e	f	g	h	A woman wearing a red helmet with a white shape on it, rollerblading.	A woman wearing a red helmet with a white star on it, rollerblading.	a	b	c	d	e	neutral
+170	a	b	d	e	f	g	h	The worker is standing on a ladder on a city sidewalk repairing the building with a large drill.	The worker is standing on a ladder on a city sidewalk repairing the building with a large tool.	a	b	c	d	e	entailment
+171	a	b	d	e	f	g	h	The worker is standing on a ladder on a city sidewalk repairing the building with a large tool.	The worker is standing on a ladder on a city sidewalk repairing the building with a large drill.	a	b	c	d	e	neutral
+172	a	b	d	e	f	g	h	A blond man, who is wearing a black t-shirt is playing a game of scrabble and is surrounded by vegetables.	A blond man, who is wearing a black t-shirt is playing a game of scrabble and is surrounded by foods.	a	b	c	d	e	entailment
+173	a	b	d	e	f	g	h	A blond man, who is wearing a black t-shirt is playing a game of scrabble and is surrounded by foods.	A blond man, who is wearing a black t-shirt is playing a game of scrabble and is surrounded by vegetables.	a	b	c	d	e	neutral
+174	a	b	d	e	f	g	h	A blond man, who is wearing a black t-shirt is playing a game of scrabble and is surrounded by vegetables.	A blond man, who is wearing a black t-shirt is playing a game of scrabble and is surrounded by yams.	a	b	c	d	e	neutral
+175	a	b	d	e	f	g	h	A blond man, who is wearing a black t-shirt is playing a game of scrabble and is surrounded by yams.	A blond man, who is wearing a black t-shirt is playing a game of scrabble and is surrounded by vegetables.	a	b	c	d	e	entailment
+176	a	b	d	e	f	g	h	A blond man, who is wearing a black t-shirt is playing a game of scrabble and is surrounded by vegetables.	A blond man, who is wearing a black t-shirt is playing a game of scrabble and is surrounded by onions.	a	b	c	d	e	neutral
+177	a	b	d	e	f	g	h	A blond man, who is wearing a black t-shirt is playing a game of scrabble and is surrounded by onions.	A blond man, who is wearing a black t-shirt is playing a game of scrabble and is surrounded by vegetables.	a	b	c	d	e	entailment
+178	a	b	d	e	f	g	h	A blond man, who is wearing a black t-shirt is playing a game of scrabble and is surrounded by vegetables.	A blond man, who is wearing a black t-shirt is playing a game of scrabble and is surrounded by carrots.	a	b	c	d	e	neutral
+179	a	b	d	e	f	g	h	A blond man, who is wearing a black t-shirt is playing a game of scrabble and is surrounded by carrots.	A blond man, who is wearing a black t-shirt is playing a game of scrabble and is surrounded by vegetables.	a	b	c	d	e	entailment
+180	a	b	d	e	f	g	h	A blond man, who is wearing a black t-shirt is playing a game of scrabble and is surrounded by vegetables.	A blond man, who is wearing a black t-shirt is playing a game of scrabble and is surrounded by tomatoes.	a	b	c	d	e	neutral
+181	a	b	d	e	f	g	h	A blond man, who is wearing a black t-shirt is playing a game of scrabble and is surrounded by tomatoes.	A blond man, who is wearing a black t-shirt is playing a game of scrabble and is surrounded by vegetables.	a	b	c	d	e	entailment
+182	a	b	d	e	f	g	h	A blond man, who is wearing a black t-shirt is playing a game of scrabble and is surrounded by vegetables.	A blond man, who is wearing a black t-shirt is playing a game of scrabble and is surrounded by peppers.	a	b	c	d	e	neutral
+183	a	b	d	e	f	g	h	A blond man, who is wearing a black t-shirt is playing a game of scrabble and is surrounded by peppers.	A blond man, who is wearing a black t-shirt is playing a game of scrabble and is surrounded by vegetables.	a	b	c	d	e	entailment
+184	a	b	d	e	f	g	h	A blond man, who is wearing a black t-shirt is playing a game of scrabble and is surrounded by vegetables.	A blond man, who is wearing a black t-shirt is playing a game of scrabble and is surrounded by cabbages.	a	b	c	d	e	neutral
+185	a	b	d	e	f	g	h	A blond man, who is wearing a black t-shirt is playing a game of scrabble and is surrounded by cabbages.	A blond man, who is wearing a black t-shirt is playing a game of scrabble and is surrounded by vegetables.	a	b	c	d	e	entailment
+186	a	b	d	e	f	g	h	A blond man, who is wearing a black t-shirt is playing a game of scrabble and is surrounded by vegetables.	A blond man, who is wearing a black t-shirt is playing a game of scrabble and is surrounded by eggplants.	a	b	c	d	e	neutral
+187	a	b	d	e	f	g	h	A blond man, who is wearing a black t-shirt is playing a game of scrabble and is surrounded by eggplants.	A blond man, who is wearing a black t-shirt is playing a game of scrabble and is surrounded by vegetables.	a	b	c	d	e	entailment
+188	a	b	d	e	f	g	h	Baseball player makes a catch in front of an umpire.	Baseball player makes a catch in front of an person.	a	b	c	d	e	entailment
+189	a	b	d	e	f	g	h	Baseball player makes a catch in front of an person.	Baseball player makes a catch in front of an umpire.	a	b	c	d	e	neutral
+190	a	b	d	e	f	g	h	Two women laughing at a cat walking on the furniture.	Two women laughing at a mammal walking on the furniture.	a	b	c	d	e	entailment
+191	a	b	d	e	f	g	h	Two women laughing at a mammal walking on the furniture.	Two women laughing at a cat walking on the furniture.	a	b	c	d	e	neutral
+192	a	b	d	e	f	g	h	Two women laughing at a cat walking on the furniture.	Two women laughing at a animal walking on the furniture.	a	b	c	d	e	entailment
+193	a	b	d	e	f	g	h	Two women laughing at a animal walking on the furniture.	Two women laughing at a cat walking on the furniture.	a	b	c	d	e	neutral
+194	a	b	d	e	f	g	h	Two women laughing at a cat walking on the furniture.	Two women laughing at a tabby walking on the furniture.	a	b	c	d	e	neutral
+195	a	b	d	e	f	g	h	Two women laughing at a tabby walking on the furniture.	Two women laughing at a cat walking on the furniture.	a	b	c	d	e	entailment
+196	a	b	d	e	f	g	h	A man in a red shirt is walking on the street.	A man in a red garment is walking on the street.	a	b	c	d	e	entailment
+197	a	b	d	e	f	g	h	A man in a red garment is walking on the street.	A man in a red shirt is walking on the street.	a	b	c	d	e	neutral
+198	a	b	d	e	f	g	h	Two young males working in a garden.	Two young males working in a location.	a	b	c	d	e	entailment
+199	a	b	d	e	f	g	h	Two young males working in a location.	Two young males working in a garden.	a	b	c	d	e	neutral
+200	a	b	d	e	f	g	h	A gentleman coming out of a laundromat.	A gentleman coming out of a location.	a	b	c	d	e	entailment
+201	a	b	d	e	f	g	h	A gentleman coming out of a location.	A gentleman coming out of a laundromat.	a	b	c	d	e	neutral
+202	a	b	d	e	f	g	h	People on ATVs and dirt bikes are traveling along a worn path in a field surrounded by trees.	People on ATVs and dirt bikes are traveling along a worn path in a field surrounded by plants.	a	b	c	d	e	entailment
+203	a	b	d	e	f	g	h	People on ATVs and dirt bikes are traveling along a worn path in a field surrounded by plants.	People on ATVs and dirt bikes are traveling along a worn path in a field surrounded by trees.	a	b	c	d	e	neutral
+204	a	b	d	e	f	g	h	People on ATVs and dirt bikes are traveling along a worn path in a field surrounded by trees.	People on ATVs and dirt bikes are traveling along a worn path in a field surrounded by elms.	a	b	c	d	e	neutral
+205	a	b	d	e	f	g	h	People on ATVs and dirt bikes are traveling along a worn path in a field surrounded by elms.	People on ATVs and dirt bikes are traveling along a worn path in a field surrounded by trees.	a	b	c	d	e	entailment
+206	a	b	d	e	f	g	h	People on ATVs and dirt bikes are traveling along a worn path in a field surrounded by trees.	People on ATVs and dirt bikes are traveling along a worn path in a field surrounded by firs.	a	b	c	d	e	neutral
+207	a	b	d	e	f	g	h	People on ATVs and dirt bikes are traveling along a worn path in a field surrounded by firs.	People on ATVs and dirt bikes are traveling along a worn path in a field surrounded by trees.	a	b	c	d	e	entailment
+208	a	b	d	e	f	g	h	A girl sits a piano with a microphone.	A girl sits a instrument with a microphone.	a	b	c	d	e	entailment
+209	a	b	d	e	f	g	h	A girl sits a instrument with a microphone.	A girl sits a piano with a microphone.	a	b	c	d	e	neutral
+210	a	b	d	e	f	g	h	Boy with toy gun pointed at the camera.	Boy with toy weapon pointed at the camera.	a	b	c	d	e	entailment
+211	a	b	d	e	f	g	h	Boy with toy weapon pointed at the camera.	Boy with toy gun pointed at the camera.	a	b	c	d	e	neutral
+212	a	b	d	e	f	g	h	Boy with toy gun pointed at the camera.	Boy with toy revolver pointed at the camera.	a	b	c	d	e	neutral
+213	a	b	d	e	f	g	h	Boy with toy revolver pointed at the camera.	Boy with toy gun pointed at the camera.	a	b	c	d	e	entailment
+214	a	b	d	e	f	g	h	Boy with toy gun pointed at the camera.	Boy with toy shotgun pointed at the camera.	a	b	c	d	e	neutral
+215	a	b	d	e	f	g	h	Boy with toy shotgun pointed at the camera.	Boy with toy gun pointed at the camera.	a	b	c	d	e	entailment
+216	a	b	d	e	f	g	h	Boy with toy gun pointed at the camera.	Boy with toy rifle pointed at the camera.	a	b	c	d	e	neutral
+217	a	b	d	e	f	g	h	Boy with toy rifle pointed at the camera.	Boy with toy gun pointed at the camera.	a	b	c	d	e	entailment
+218	a	b	d	e	f	g	h	There is a red truck behind the horses.	There is a red truck behind the mammals.	a	b	c	d	e	entailment
+219	a	b	d	e	f	g	h	There is a red truck behind the mammals.	There is a red truck behind the horses.	a	b	c	d	e	neutral
+220	a	b	d	e	f	g	h	There is a red truck behind the horses.	There is a red truck behind the animals.	a	b	c	d	e	entailment
+221	a	b	d	e	f	g	h	There is a red truck behind the animals.	There is a red truck behind the horses.	a	b	c	d	e	neutral
+222	a	b	d	e	f	g	h	Two men stand beneath a tree as they watch the sunset over the ocean.	Two men stand beneath a plant as they watch the sunset over the ocean.	a	b	c	d	e	entailment
+223	a	b	d	e	f	g	h	Two men stand beneath a plant as they watch the sunset over the ocean.	Two men stand beneath a tree as they watch the sunset over the ocean.	a	b	c	d	e	neutral
+224	a	b	d	e	f	g	h	Two men stand beneath a tree as they watch the sunset over the ocean.	Two men stand beneath a willow as they watch the sunset over the ocean.	a	b	c	d	e	neutral
+225	a	b	d	e	f	g	h	Two men stand beneath a willow as they watch the sunset over the ocean.	Two men stand beneath a tree as they watch the sunset over the ocean.	a	b	c	d	e	entailment
+226	a	b	d	e	f	g	h	Two men stand beneath a tree as they watch the sunset over the ocean.	Two men stand beneath a oak as they watch the sunset over the ocean.	a	b	c	d	e	neutral
+227	a	b	d	e	f	g	h	Two men stand beneath a oak as they watch the sunset over the ocean.	Two men stand beneath a tree as they watch the sunset over the ocean.	a	b	c	d	e	entailment
+228	a	b	d	e	f	g	h	Two men stand beneath a tree as they watch the sunset over the ocean.	Two men stand beneath a magnolia as they watch the sunset over the ocean.	a	b	c	d	e	neutral
+229	a	b	d	e	f	g	h	Two men stand beneath a magnolia as they watch the sunset over the ocean.	Two men stand beneath a tree as they watch the sunset over the ocean.	a	b	c	d	e	entailment
+230	a	b	d	e	f	g	h	Two men stand beneath a tree as they watch the sunset over the ocean.	Two men stand beneath a fir as they watch the sunset over the ocean.	a	b	c	d	e	neutral
+231	a	b	d	e	f	g	h	Two men stand beneath a fir as they watch the sunset over the ocean.	Two men stand beneath a tree as they watch the sunset over the ocean.	a	b	c	d	e	entailment
+232	a	b	d	e	f	g	h	Two men stand beneath a tree as they watch the sunset over the ocean.	Two men stand beneath a sycamore as they watch the sunset over the ocean.	a	b	c	d	e	neutral
+233	a	b	d	e	f	g	h	Two men stand beneath a sycamore as they watch the sunset over the ocean.	Two men stand beneath a tree as they watch the sunset over the ocean.	a	b	c	d	e	entailment
+234	a	b	d	e	f	g	h	An elderly man is sitting on a bench with his foot propped up on a tree.	An elderly man is sitting on a bench with his foot propped up on a plant.	a	b	c	d	e	entailment
+235	a	b	d	e	f	g	h	An elderly man is sitting on a bench with his foot propped up on a plant.	An elderly man is sitting on a bench with his foot propped up on a tree.	a	b	c	d	e	neutral
+236	a	b	d	e	f	g	h	An elderly man is sitting on a bench with his foot propped up on a tree.	An elderly man is sitting on a bench with his foot propped up on a magnolia.	a	b	c	d	e	neutral
+237	a	b	d	e	f	g	h	An elderly man is sitting on a bench with his foot propped up on a magnolia.	An elderly man is sitting on a bench with his foot propped up on a tree.	a	b	c	d	e	entailment
+238	a	b	d	e	f	g	h	An elderly man is sitting on a bench with his foot propped up on a tree.	An elderly man is sitting on a bench with his foot propped up on a cypress.	a	b	c	d	e	neutral
+239	a	b	d	e	f	g	h	An elderly man is sitting on a bench with his foot propped up on a cypress.	An elderly man is sitting on a bench with his foot propped up on a tree.	a	b	c	d	e	entailment
+240	a	b	d	e	f	g	h	An elderly man is sitting on a bench with his foot propped up on a tree.	An elderly man is sitting on a bench with his foot propped up on a cedar.	a	b	c	d	e	neutral
+241	a	b	d	e	f	g	h	An elderly man is sitting on a bench with his foot propped up on a cedar.	An elderly man is sitting on a bench with his foot propped up on a tree.	a	b	c	d	e	entailment
+242	a	b	d	e	f	g	h	An elderly man is sitting on a bench with his foot propped up on a tree.	An elderly man is sitting on a bench with his foot propped up on a sycamore.	a	b	c	d	e	neutral
+243	a	b	d	e	f	g	h	An elderly man is sitting on a bench with his foot propped up on a sycamore.	An elderly man is sitting on a bench with his foot propped up on a tree.	a	b	c	d	e	entailment
+244	a	b	d	e	f	g	h	An elderly man is sitting on a bench with his foot propped up on a tree.	An elderly man is sitting on a bench with his foot propped up on a elm.	a	b	c	d	e	neutral
+245	a	b	d	e	f	g	h	An elderly man is sitting on a bench with his foot propped up on a elm.	An elderly man is sitting on a bench with his foot propped up on a tree.	a	b	c	d	e	entailment
+246	a	b	d	e	f	g	h	An elderly man is sitting on a bench with his foot propped up on a tree.	An elderly man is sitting on a bench with his foot propped up on a willow.	a	b	c	d	e	neutral
+247	a	b	d	e	f	g	h	An elderly man is sitting on a bench with his foot propped up on a willow.	An elderly man is sitting on a bench with his foot propped up on a tree.	a	b	c	d	e	entailment
+248	a	b	d	e	f	g	h	An elderly man is sitting on a bench with his foot propped up on a tree.	An elderly man is sitting on a bench with his foot propped up on a maple.	a	b	c	d	e	neutral
+249	a	b	d	e	f	g	h	An elderly man is sitting on a bench with his foot propped up on a maple.	An elderly man is sitting on a bench with his foot propped up on a tree.	a	b	c	d	e	entailment
+250	a	b	d	e	f	g	h	A boy swinging or holding an axe.	A boy swinging or holding an tool.	a	b	c	d	e	entailment
+251	a	b	d	e	f	g	h	A boy swinging or holding an tool.	A boy swinging or holding an axe.	a	b	c	d	e	neutral
+252	a	b	d	e	f	g	h	A choir is singing with a conductor guiding a symphony in a roman style building in front of a large gold statue of a woman and a snake.	A choir is singing with a conductor guiding a symphony in a roman style building in front of a large gold statue of a woman and a reptile.	a	b	c	d	e	entailment
+253	a	b	d	e	f	g	h	A choir is singing with a conductor guiding a symphony in a roman style building in front of a large gold statue of a woman and a reptile.	A choir is singing with a conductor guiding a symphony in a roman style building in front of a large gold statue of a woman and a snake.	a	b	c	d	e	neutral
+254	a	b	d	e	f	g	h	A choir is singing with a conductor guiding a symphony in a roman style building in front of a large gold statue of a woman and a snake.	A choir is singing with a conductor guiding a symphony in a roman style building in front of a large gold statue of a woman and a animal.	a	b	c	d	e	entailment
+255	a	b	d	e	f	g	h	A choir is singing with a conductor guiding a symphony in a roman style building in front of a large gold statue of a woman and a animal.	A choir is singing with a conductor guiding a symphony in a roman style building in front of a large gold statue of a woman and a snake.	a	b	c	d	e	neutral
+256	a	b	d	e	f	g	h	A choir is singing with a conductor guiding a symphony in a roman style building in front of a large gold statue of a woman and a snake.	A choir is singing with a conductor guiding a symphony in a roman style building in front of a large gold statue of a woman and a python.	a	b	c	d	e	neutral
+257	a	b	d	e	f	g	h	A choir is singing with a conductor guiding a symphony in a roman style building in front of a large gold statue of a woman and a python.	A choir is singing with a conductor guiding a symphony in a roman style building in front of a large gold statue of a woman and a snake.	a	b	c	d	e	entailment
+258	a	b	d	e	f	g	h	A choir is singing with a conductor guiding a symphony in a roman style building in front of a large gold statue of a woman and a snake.	A choir is singing with a conductor guiding a symphony in a roman style building in front of a large gold statue of a woman and a boa.	a	b	c	d	e	neutral
+259	a	b	d	e	f	g	h	A choir is singing with a conductor guiding a symphony in a roman style building in front of a large gold statue of a woman and a boa.	A choir is singing with a conductor guiding a symphony in a roman style building in front of a large gold statue of a woman and a snake.	a	b	c	d	e	entailment
+260	a	b	d	e	f	g	h	A choir is singing with a conductor guiding a symphony in a roman style building in front of a large gold statue of a woman and a snake.	A choir is singing with a conductor guiding a symphony in a roman style building in front of a large gold statue of a woman and a cobra.	a	b	c	d	e	neutral
+261	a	b	d	e	f	g	h	A choir is singing with a conductor guiding a symphony in a roman style building in front of a large gold statue of a woman and a cobra.	A choir is singing with a conductor guiding a symphony in a roman style building in front of a large gold statue of a woman and a snake.	a	b	c	d	e	entailment
+262	a	b	d	e	f	g	h	A view of a park during the daytime with large skyscrapers in the background.	A view of a park during the daytime with large buildings in the background.	a	b	c	d	e	entailment
+263	a	b	d	e	f	g	h	A view of a park during the daytime with large buildings in the background.	A view of a park during the daytime with large skyscrapers in the background.	a	b	c	d	e	neutral
+264	a	b	d	e	f	g	h	A view of a park during the daytime with large skyscrapers in the background.	A view of a park during the daytime with large structures in the background.	a	b	c	d	e	entailment
+265	a	b	d	e	f	g	h	A view of a park during the daytime with large structures in the background.	A view of a park during the daytime with large skyscrapers in the background.	a	b	c	d	e	neutral
+266	a	b	d	e	f	g	h	a man wearing a brown shirt throwing the basketball into the basket.	a man wearing a brown shirt throwing the ball into the basket.	a	b	c	d	e	entailment
+267	a	b	d	e	f	g	h	a man wearing a brown shirt throwing the ball into the basket.	a man wearing a brown shirt throwing the basketball into the basket.	a	b	c	d	e	neutral
+268	a	b	d	e	f	g	h	This is a young guy reaching for a falcon on a perch.	This is a young guy reaching for a bird on a perch.	a	b	c	d	e	entailment
+269	a	b	d	e	f	g	h	This is a young guy reaching for a bird on a perch.	This is a young guy reaching for a falcon on a perch.	a	b	c	d	e	neutral
+270	a	b	d	e	f	g	h	A man in a black t-shirt is standing in front of a book shelf.	A adult in a black t-shirt is standing in front of a book shelf.	a	b	c	d	e	entailment
+271	a	b	d	e	f	g	h	A adult in a black t-shirt is standing in front of a book shelf.	A man in a black t-shirt is standing in front of a book shelf.	a	b	c	d	e	neutral
+272	a	b	d	e	f	g	h	A man in a black t-shirt is standing in front of a book shelf.	A individual in a black t-shirt is standing in front of a book shelf.	a	b	c	d	e	entailment
+273	a	b	d	e	f	g	h	A individual in a black t-shirt is standing in front of a book shelf.	A man in a black t-shirt is standing in front of a book shelf.	a	b	c	d	e	neutral
+274	a	b	d	e	f	g	h	A man in a black t-shirt is standing in front of a book shelf.	A widower in a black t-shirt is standing in front of a book shelf.	a	b	c	d	e	neutral
+275	a	b	d	e	f	g	h	A widower in a black t-shirt is standing in front of a book shelf.	A man in a black t-shirt is standing in front of a book shelf.	a	b	c	d	e	entailment
+276	a	b	d	e	f	g	h	A man in a black t-shirt is standing in front of a book shelf.	A hunk in a black t-shirt is standing in front of a book shelf.	a	b	c	d	e	neutral
+277	a	b	d	e	f	g	h	A hunk in a black t-shirt is standing in front of a book shelf.	A man in a black t-shirt is standing in front of a book shelf.	a	b	c	d	e	entailment
+278	a	b	d	e	f	g	h	A man in a black t-shirt is standing in front of a book shelf.	A geezer in a black t-shirt is standing in front of a book shelf.	a	b	c	d	e	neutral
+279	a	b	d	e	f	g	h	A geezer in a black t-shirt is standing in front of a book shelf.	A man in a black t-shirt is standing in front of a book shelf.	a	b	c	d	e	entailment
+280	a	b	d	e	f	g	h	A man in a black t-shirt is standing in front of a book shelf.	A bachelor in a black t-shirt is standing in front of a book shelf.	a	b	c	d	e	neutral
+281	a	b	d	e	f	g	h	A bachelor in a black t-shirt is standing in front of a book shelf.	A man in a black t-shirt is standing in front of a book shelf.	a	b	c	d	e	entailment
+282	a	b	d	e	f	g	h	A young woman is drinking a beer while dressing in a pageant costume which includes lots of pink feathers and beads.	A young adult is drinking a beer while dressing in a pageant costume which includes lots of pink feathers and beads.	a	b	c	d	e	entailment
+283	a	b	d	e	f	g	h	A young adult is drinking a beer while dressing in a pageant costume which includes lots of pink feathers and beads.	A young woman is drinking a beer while dressing in a pageant costume which includes lots of pink feathers and beads.	a	b	c	d	e	neutral
+284	a	b	d	e	f	g	h	A young woman is drinking a beer while dressing in a pageant costume which includes lots of pink feathers and beads.	A young person is drinking a beer while dressing in a pageant costume which includes lots of pink feathers and beads.	a	b	c	d	e	entailment
+285	a	b	d	e	f	g	h	A young person is drinking a beer while dressing in a pageant costume which includes lots of pink feathers and beads.	A young woman is drinking a beer while dressing in a pageant costume which includes lots of pink feathers and beads.	a	b	c	d	e	neutral
+286	a	b	d	e	f	g	h	A young woman is drinking a beer while dressing in a pageant costume which includes lots of pink feathers and beads.	A young widow is drinking a beer while dressing in a pageant costume which includes lots of pink feathers and beads.	a	b	c	d	e	neutral
+287	a	b	d	e	f	g	h	A young widow is drinking a beer while dressing in a pageant costume which includes lots of pink feathers and beads.	A young woman is drinking a beer while dressing in a pageant costume which includes lots of pink feathers and beads.	a	b	c	d	e	entailment
+288	a	b	d	e	f	g	h	A young woman is drinking a beer while dressing in a pageant costume which includes lots of pink feathers and beads.	A young ex-wife is drinking a beer while dressing in a pageant costume which includes lots of pink feathers and beads.	a	b	c	d	e	neutral
+289	a	b	d	e	f	g	h	A young ex-wife is drinking a beer while dressing in a pageant costume which includes lots of pink feathers and beads.	A young woman is drinking a beer while dressing in a pageant costume which includes lots of pink feathers and beads.	a	b	c	d	e	entailment
+290	a	b	d	e	f	g	h	A young woman is drinking a beer while dressing in a pageant costume which includes lots of pink feathers and beads.	A young maid is drinking a beer while dressing in a pageant costume which includes lots of pink feathers and beads.	a	b	c	d	e	neutral
+291	a	b	d	e	f	g	h	A young maid is drinking a beer while dressing in a pageant costume which includes lots of pink feathers and beads.	A young woman is drinking a beer while dressing in a pageant costume which includes lots of pink feathers and beads.	a	b	c	d	e	entailment
+292	a	b	d	e	f	g	h	A young woman is drinking a beer while dressing in a pageant costume which includes lots of pink feathers and beads.	A young girlfriend is drinking a beer while dressing in a pageant costume which includes lots of pink feathers and beads.	a	b	c	d	e	neutral
+293	a	b	d	e	f	g	h	A young girlfriend is drinking a beer while dressing in a pageant costume which includes lots of pink feathers and beads.	A young woman is drinking a beer while dressing in a pageant costume which includes lots of pink feathers and beads.	a	b	c	d	e	entailment
+294	a	b	d	e	f	g	h	A young woman is drinking a beer while dressing in a pageant costume which includes lots of pink feathers and beads.	A young hooker is drinking a beer while dressing in a pageant costume which includes lots of pink feathers and beads.	a	b	c	d	e	neutral
+295	a	b	d	e	f	g	h	A young hooker is drinking a beer while dressing in a pageant costume which includes lots of pink feathers and beads.	A young woman is drinking a beer while dressing in a pageant costume which includes lots of pink feathers and beads.	a	b	c	d	e	entailment
+296	a	b	d	e	f	g	h	A young woman is drinking a beer while dressing in a pageant costume which includes lots of pink feathers and beads.	A young granny is drinking a beer while dressing in a pageant costume which includes lots of pink feathers and beads.	a	b	c	d	e	neutral
+297	a	b	d	e	f	g	h	A young granny is drinking a beer while dressing in a pageant costume which includes lots of pink feathers and beads.	A young woman is drinking a beer while dressing in a pageant costume which includes lots of pink feathers and beads.	a	b	c	d	e	entailment
+298	a	b	d	e	f	g	h	A young woman is drinking a beer while dressing in a pageant costume which includes lots of pink feathers and beads.	A young housewife is drinking a beer while dressing in a pageant costume which includes lots of pink feathers and beads.	a	b	c	d	e	neutral
+299	a	b	d	e	f	g	h	A young housewife is drinking a beer while dressing in a pageant costume which includes lots of pink feathers and beads.	A young woman is drinking a beer while dressing in a pageant costume which includes lots of pink feathers and beads.	a	b	c	d	e	entailment
+300	a	b	d	e	f	g	h	A young woman is drinking a beer while dressing in a pageant costume which includes lots of pink feathers and beads.	A young whore is drinking a beer while dressing in a pageant costume which includes lots of pink feathers and beads.	a	b	c	d	e	neutral
+301	a	b	d	e	f	g	h	A young whore is drinking a beer while dressing in a pageant costume which includes lots of pink feathers and beads.	A young woman is drinking a beer while dressing in a pageant costume which includes lots of pink feathers and beads.	a	b	c	d	e	entailment
+302	a	b	d	e	f	g	h	A young woman is drinking a beer while dressing in a pageant costume which includes lots of pink feathers and beads.	A young mother is drinking a beer while dressing in a pageant costume which includes lots of pink feathers and beads.	a	b	c	d	e	neutral
+303	a	b	d	e	f	g	h	A young mother is drinking a beer while dressing in a pageant costume which includes lots of pink feathers and beads.	A young woman is drinking a beer while dressing in a pageant costume which includes lots of pink feathers and beads.	a	b	c	d	e	entailment
+304	a	b	d	e	f	g	h	A young woman is drinking a beer while dressing in a pageant costume which includes lots of pink feathers and beads.	A young bridesmaid is drinking a beer while dressing in a pageant costume which includes lots of pink feathers and beads.	a	b	c	d	e	neutral
+305	a	b	d	e	f	g	h	A young bridesmaid is drinking a beer while dressing in a pageant costume which includes lots of pink feathers and beads.	A young woman is drinking a beer while dressing in a pageant costume which includes lots of pink feathers and beads.	a	b	c	d	e	entailment
+306	a	b	d	e	f	g	h	A young woman is drinking a beer while dressing in a pageant costume which includes lots of pink feathers and beads.	A young nanny is drinking a beer while dressing in a pageant costume which includes lots of pink feathers and beads.	a	b	c	d	e	neutral
+307	a	b	d	e	f	g	h	A young nanny is drinking a beer while dressing in a pageant costume which includes lots of pink feathers and beads.	A young woman is drinking a beer while dressing in a pageant costume which includes lots of pink feathers and beads.	a	b	c	d	e	entailment
+308	a	b	d	e	f	g	h	A young female is sitting in a chair on the beach, while reading a book with her feet in the sand.	A young female is sitting in a armchair on the beach, while reading a book with her feet in the sand.	a	b	c	d	e	neutral
+309	a	b	d	e	f	g	h	A young female is sitting in a armchair on the beach, while reading a book with her feet in the sand.	A young female is sitting in a chair on the beach, while reading a book with her feet in the sand.	a	b	c	d	e	entailment
+310	a	b	d	e	f	g	h	A woman wearing a maroon hoodie is holding a black object as she wades through shallow water under a bridge.	A woman wearing a maroon hoodie is holding a black pot as she wades through shallow water under a bridge.	a	b	c	d	e	neutral
+311	a	b	d	e	f	g	h	A woman wearing a maroon hoodie is holding a black pot as she wades through shallow water under a bridge.	A woman wearing a maroon hoodie is holding a black object as she wades through shallow water under a bridge.	a	b	c	d	e	entailment
+312	a	b	d	e	f	g	h	A woman wearing a maroon hoodie is holding a black object as she wades through shallow water under a bridge.	A woman wearing a maroon hoodie is holding a black clarinet as she wades through shallow water under a bridge.	a	b	c	d	e	neutral
+313	a	b	d	e	f	g	h	A woman wearing a maroon hoodie is holding a black clarinet as she wades through shallow water under a bridge.	A woman wearing a maroon hoodie is holding a black object as she wades through shallow water under a bridge.	a	b	c	d	e	entailment
+314	a	b	d	e	f	g	h	A woman wearing a maroon hoodie is holding a black object as she wades through shallow water under a bridge.	A woman wearing a maroon hoodie is holding a black helmet as she wades through shallow water under a bridge.	a	b	c	d	e	neutral
+315	a	b	d	e	f	g	h	A woman wearing a maroon hoodie is holding a black helmet as she wades through shallow water under a bridge.	A woman wearing a maroon hoodie is holding a black object as she wades through shallow water under a bridge.	a	b	c	d	e	entailment
+316	a	b	d	e	f	g	h	A woman wearing a maroon hoodie is holding a black object as she wades through shallow water under a bridge.	A woman wearing a maroon hoodie is holding a black brush as she wades through shallow water under a bridge.	a	b	c	d	e	neutral
+317	a	b	d	e	f	g	h	A woman wearing a maroon hoodie is holding a black brush as she wades through shallow water under a bridge.	A woman wearing a maroon hoodie is holding a black object as she wades through shallow water under a bridge.	a	b	c	d	e	entailment
+318	a	b	d	e	f	g	h	A woman wearing a maroon hoodie is holding a black object as she wades through shallow water under a bridge.	A woman wearing a maroon hoodie is holding a black toy as she wades through shallow water under a bridge.	a	b	c	d	e	neutral
+319	a	b	d	e	f	g	h	A woman wearing a maroon hoodie is holding a black toy as she wades through shallow water under a bridge.	A woman wearing a maroon hoodie is holding a black object as she wades through shallow water under a bridge.	a	b	c	d	e	entailment
+320	a	b	d	e	f	g	h	A woman wearing a maroon hoodie is holding a black object as she wades through shallow water under a bridge.	A woman wearing a maroon hoodie is holding a black sweater as she wades through shallow water under a bridge.	a	b	c	d	e	neutral
+321	a	b	d	e	f	g	h	A woman wearing a maroon hoodie is holding a black sweater as she wades through shallow water under a bridge.	A woman wearing a maroon hoodie is holding a black object as she wades through shallow water under a bridge.	a	b	c	d	e	entailment
+322	a	b	d	e	f	g	h	A woman wearing a maroon hoodie is holding a black object as she wades through shallow water under a bridge.	A woman wearing a maroon hoodie is holding a black calculator as she wades through shallow water under a bridge.	a	b	c	d	e	neutral
+323	a	b	d	e	f	g	h	A woman wearing a maroon hoodie is holding a black calculator as she wades through shallow water under a bridge.	A woman wearing a maroon hoodie is holding a black object as she wades through shallow water under a bridge.	a	b	c	d	e	entailment
+324	a	b	d	e	f	g	h	A woman wearing a maroon hoodie is holding a black object as she wades through shallow water under a bridge.	A woman wearing a maroon hoodie is holding a black paintbrush as she wades through shallow water under a bridge.	a	b	c	d	e	neutral
+325	a	b	d	e	f	g	h	A woman wearing a maroon hoodie is holding a black paintbrush as she wades through shallow water under a bridge.	A woman wearing a maroon hoodie is holding a black object as she wades through shallow water under a bridge.	a	b	c	d	e	entailment
+326	a	b	d	e	f	g	h	A woman wearing a maroon hoodie is holding a black object as she wades through shallow water under a bridge.	A woman wearing a maroon hoodie is holding a black jacket as she wades through shallow water under a bridge.	a	b	c	d	e	neutral
+327	a	b	d	e	f	g	h	A woman wearing a maroon hoodie is holding a black jacket as she wades through shallow water under a bridge.	A woman wearing a maroon hoodie is holding a black object as she wades through shallow water under a bridge.	a	b	c	d	e	entailment
+328	a	b	d	e	f	g	h	A woman wearing a maroon hoodie is holding a black object as she wades through shallow water under a bridge.	A woman wearing a maroon hoodie is holding a black chair as she wades through shallow water under a bridge.	a	b	c	d	e	neutral
+329	a	b	d	e	f	g	h	A woman wearing a maroon hoodie is holding a black chair as she wades through shallow water under a bridge.	A woman wearing a maroon hoodie is holding a black object as she wades through shallow water under a bridge.	a	b	c	d	e	entailment
+330	a	b	d	e	f	g	h	A woman wearing a maroon hoodie is holding a black object as she wades through shallow water under a bridge.	A woman wearing a maroon hoodie is holding a black rifle as she wades through shallow water under a bridge.	a	b	c	d	e	neutral
+331	a	b	d	e	f	g	h	A woman wearing a maroon hoodie is holding a black rifle as she wades through shallow water under a bridge.	A woman wearing a maroon hoodie is holding a black object as she wades through shallow water under a bridge.	a	b	c	d	e	entailment
+332	a	b	d	e	f	g	h	A woman wearing a maroon hoodie is holding a black object as she wades through shallow water under a bridge.	A woman wearing a maroon hoodie is holding a black hat as she wades through shallow water under a bridge.	a	b	c	d	e	neutral
+333	a	b	d	e	f	g	h	A woman wearing a maroon hoodie is holding a black hat as she wades through shallow water under a bridge.	A woman wearing a maroon hoodie is holding a black object as she wades through shallow water under a bridge.	a	b	c	d	e	entailment
+334	a	b	d	e	f	g	h	A woman wearing a maroon hoodie is holding a black object as she wades through shallow water under a bridge.	A woman wearing a maroon hoodie is holding a black cane as she wades through shallow water under a bridge.	a	b	c	d	e	neutral
+335	a	b	d	e	f	g	h	A woman wearing a maroon hoodie is holding a black cane as she wades through shallow water under a bridge.	A woman wearing a maroon hoodie is holding a black object as she wades through shallow water under a bridge.	a	b	c	d	e	entailment
+336	a	b	d	e	f	g	h	A woman wearing a maroon hoodie is holding a black object as she wades through shallow water under a bridge.	A woman wearing a maroon hoodie is holding a black box as she wades through shallow water under a bridge.	a	b	c	d	e	neutral
+337	a	b	d	e	f	g	h	A woman wearing a maroon hoodie is holding a black box as she wades through shallow water under a bridge.	A woman wearing a maroon hoodie is holding a black object as she wades through shallow water under a bridge.	a	b	c	d	e	entailment
+338	a	b	d	e	f	g	h	A woman wearing a maroon hoodie is holding a black object as she wades through shallow water under a bridge.	A woman wearing a maroon hoodie is holding a black snowboard as she wades through shallow water under a bridge.	a	b	c	d	e	neutral
+339	a	b	d	e	f	g	h	A woman wearing a maroon hoodie is holding a black snowboard as she wades through shallow water under a bridge.	A woman wearing a maroon hoodie is holding a black object as she wades through shallow water under a bridge.	a	b	c	d	e	entailment
+340	a	b	d	e	f	g	h	A woman wearing a maroon hoodie is holding a black object as she wades through shallow water under a bridge.	A woman wearing a maroon hoodie is holding a black horn as she wades through shallow water under a bridge.	a	b	c	d	e	neutral
+341	a	b	d	e	f	g	h	A woman wearing a maroon hoodie is holding a black horn as she wades through shallow water under a bridge.	A woman wearing a maroon hoodie is holding a black object as she wades through shallow water under a bridge.	a	b	c	d	e	entailment
+342	a	b	d	e	f	g	h	A woman wearing a maroon hoodie is holding a black object as she wades through shallow water under a bridge.	A woman wearing a maroon hoodie is holding a black mandolin as she wades through shallow water under a bridge.	a	b	c	d	e	neutral
+343	a	b	d	e	f	g	h	A woman wearing a maroon hoodie is holding a black mandolin as she wades through shallow water under a bridge.	A woman wearing a maroon hoodie is holding a black object as she wades through shallow water under a bridge.	a	b	c	d	e	entailment
+344	a	b	d	e	f	g	h	A woman wearing a maroon hoodie is holding a black object as she wades through shallow water under a bridge.	A woman wearing a maroon hoodie is holding a black spear as she wades through shallow water under a bridge.	a	b	c	d	e	neutral
+345	a	b	d	e	f	g	h	A woman wearing a maroon hoodie is holding a black spear as she wades through shallow water under a bridge.	A woman wearing a maroon hoodie is holding a black object as she wades through shallow water under a bridge.	a	b	c	d	e	entailment
+346	a	b	d	e	f	g	h	A woman wearing a maroon hoodie is holding a black object as she wades through shallow water under a bridge.	A woman wearing a maroon hoodie is holding a black shotgun as she wades through shallow water under a bridge.	a	b	c	d	e	neutral
+347	a	b	d	e	f	g	h	A woman wearing a maroon hoodie is holding a black shotgun as she wades through shallow water under a bridge.	A woman wearing a maroon hoodie is holding a black object as she wades through shallow water under a bridge.	a	b	c	d	e	entailment
+348	a	b	d	e	f	g	h	A woman wearing a maroon hoodie is holding a black object as she wades through shallow water under a bridge.	A woman wearing a maroon hoodie is holding a black book as she wades through shallow water under a bridge.	a	b	c	d	e	neutral
+349	a	b	d	e	f	g	h	A woman wearing a maroon hoodie is holding a black book as she wades through shallow water under a bridge.	A woman wearing a maroon hoodie is holding a black object as she wades through shallow water under a bridge.	a	b	c	d	e	entailment
+350	a	b	d	e	f	g	h	Two figures in a red and green boat are gazing toward some large rocks on the shore.	Two figures in a red and green lifeboat are gazing toward some large rocks on the shore.	a	b	c	d	e	neutral
+351	a	b	d	e	f	g	h	Two figures in a red and green lifeboat are gazing toward some large rocks on the shore.	Two figures in a red and green boat are gazing toward some large rocks on the shore.	a	b	c	d	e	entailment
+352	a	b	d	e	f	g	h	Two figures in a red and green boat are gazing toward some large rocks on the shore.	Two figures in a red and green gondola are gazing toward some large rocks on the shore.	a	b	c	d	e	neutral
+353	a	b	d	e	f	g	h	Two figures in a red and green gondola are gazing toward some large rocks on the shore.	Two figures in a red and green boat are gazing toward some large rocks on the shore.	a	b	c	d	e	entailment
+354	a	b	d	e	f	g	h	Two figures in a red and green boat are gazing toward some large rocks on the shore.	Two figures in a red and green speedboat are gazing toward some large rocks on the shore.	a	b	c	d	e	neutral
+355	a	b	d	e	f	g	h	Two figures in a red and green speedboat are gazing toward some large rocks on the shore.	Two figures in a red and green boat are gazing toward some large rocks on the shore.	a	b	c	d	e	entailment
+356	a	b	d	e	f	g	h	Two figures in a red and green boat are gazing toward some large rocks on the shore.	Two figures in a red and green houseboat are gazing toward some large rocks on the shore.	a	b	c	d	e	neutral
+357	a	b	d	e	f	g	h	Two figures in a red and green houseboat are gazing toward some large rocks on the shore.	Two figures in a red and green boat are gazing toward some large rocks on the shore.	a	b	c	d	e	entailment
+358	a	b	d	e	f	g	h	Two figures in a red and green boat are gazing toward some large rocks on the shore.	Two figures in a red and green motorboat are gazing toward some large rocks on the shore.	a	b	c	d	e	neutral
+359	a	b	d	e	f	g	h	Two figures in a red and green motorboat are gazing toward some large rocks on the shore.	Two figures in a red and green boat are gazing toward some large rocks on the shore.	a	b	c	d	e	entailment
+360	a	b	d	e	f	g	h	Two figures in a red and green boat are gazing toward some large rocks on the shore.	Two figures in a red and green rowboat are gazing toward some large rocks on the shore.	a	b	c	d	e	neutral
+361	a	b	d	e	f	g	h	Two figures in a red and green rowboat are gazing toward some large rocks on the shore.	Two figures in a red and green boat are gazing toward some large rocks on the shore.	a	b	c	d	e	entailment
+362	a	b	d	e	f	g	h	Two figures in a red and green boat are gazing toward some large rocks on the shore.	Two figures in a red and green tugboat are gazing toward some large rocks on the shore.	a	b	c	d	e	neutral
+363	a	b	d	e	f	g	h	Two figures in a red and green tugboat are gazing toward some large rocks on the shore.	Two figures in a red and green boat are gazing toward some large rocks on the shore.	a	b	c	d	e	entailment
+364	a	b	d	e	f	g	h	Two figures in a red and green boat are gazing toward some large rocks on the shore.	Two figures in a red and green canoe are gazing toward some large rocks on the shore.	a	b	c	d	e	neutral
+365	a	b	d	e	f	g	h	Two figures in a red and green canoe are gazing toward some large rocks on the shore.	Two figures in a red and green boat are gazing toward some large rocks on the shore.	a	b	c	d	e	entailment
+366	a	b	d	e	f	g	h	Two figures in a red and green boat are gazing toward some large rocks on the shore.	Two figures in a red and green kayak are gazing toward some large rocks on the shore.	a	b	c	d	e	neutral
+367	a	b	d	e	f	g	h	Two figures in a red and green kayak are gazing toward some large rocks on the shore.	Two figures in a red and green boat are gazing toward some large rocks on the shore.	a	b	c	d	e	entailment
+368	a	b	d	e	f	g	h	A group of people eat a meal at a restaurant.	A group of people eat a meal at a steakhouse.	a	b	c	d	e	neutral
+369	a	b	d	e	f	g	h	A group of people eat a meal at a steakhouse.	A group of people eat a meal at a restaurant.	a	b	c	d	e	entailment
+370	a	b	d	e	f	g	h	A group of people eat a meal at a restaurant.	A group of people eat a meal at a cafe.	a	b	c	d	e	neutral
+371	a	b	d	e	f	g	h	A group of people eat a meal at a cafe.	A group of people eat a meal at a restaurant.	a	b	c	d	e	entailment
+372	a	b	d	e	f	g	h	A group of people eat a meal at a restaurant.	A group of people eat a meal at a diner.	a	b	c	d	e	neutral
+373	a	b	d	e	f	g	h	A group of people eat a meal at a diner.	A group of people eat a meal at a restaurant.	a	b	c	d	e	entailment
+374	a	b	d	e	f	g	h	An Asian person with yellow sandals sitting with a basket to their right.	An Asian executive with yellow sandals sitting with a basket to their right.	a	b	c	d	e	neutral
+375	a	b	d	e	f	g	h	An Asian executive with yellow sandals sitting with a basket to their right.	An Asian person with yellow sandals sitting with a basket to their right.	a	b	c	d	e	entailment
+376	a	b	d	e	f	g	h	An Asian person with yellow sandals sitting with a basket to their right.	An Asian gravedigger with yellow sandals sitting with a basket to their right.	a	b	c	d	e	neutral
+377	a	b	d	e	f	g	h	An Asian gravedigger with yellow sandals sitting with a basket to their right.	An Asian person with yellow sandals sitting with a basket to their right.	a	b	c	d	e	entailment
+378	a	b	d	e	f	g	h	An Asian person with yellow sandals sitting with a basket to their right.	An Asian skateboarder with yellow sandals sitting with a basket to their right.	a	b	c	d	e	neutral
+379	a	b	d	e	f	g	h	An Asian skateboarder with yellow sandals sitting with a basket to their right.	An Asian person with yellow sandals sitting with a basket to their right.	a	b	c	d	e	entailment
+380	a	b	d	e	f	g	h	An Asian person with yellow sandals sitting with a basket to their right.	An Asian fireman with yellow sandals sitting with a basket to their right.	a	b	c	d	e	neutral
+381	a	b	d	e	f	g	h	An Asian fireman with yellow sandals sitting with a basket to their right.	An Asian person with yellow sandals sitting with a basket to their right.	a	b	c	d	e	entailment
+382	a	b	d	e	f	g	h	An Asian person with yellow sandals sitting with a basket to their right.	An Asian supermodel with yellow sandals sitting with a basket to their right.	a	b	c	d	e	neutral
+383	a	b	d	e	f	g	h	An Asian supermodel with yellow sandals sitting with a basket to their right.	An Asian person with yellow sandals sitting with a basket to their right.	a	b	c	d	e	entailment
+384	a	b	d	e	f	g	h	An Asian person with yellow sandals sitting with a basket to their right.	An Asian bowler with yellow sandals sitting with a basket to their right.	a	b	c	d	e	neutral
+385	a	b	d	e	f	g	h	An Asian bowler with yellow sandals sitting with a basket to their right.	An Asian person with yellow sandals sitting with a basket to their right.	a	b	c	d	e	entailment
+386	a	b	d	e	f	g	h	An Asian person with yellow sandals sitting with a basket to their right.	An Asian farmer with yellow sandals sitting with a basket to their right.	a	b	c	d	e	neutral
+387	a	b	d	e	f	g	h	An Asian farmer with yellow sandals sitting with a basket to their right.	An Asian person with yellow sandals sitting with a basket to their right.	a	b	c	d	e	entailment
+388	a	b	d	e	f	g	h	An Asian person with yellow sandals sitting with a basket to their right.	An Asian wife with yellow sandals sitting with a basket to their right.	a	b	c	d	e	neutral
+389	a	b	d	e	f	g	h	An Asian wife with yellow sandals sitting with a basket to their right.	An Asian person with yellow sandals sitting with a basket to their right.	a	b	c	d	e	entailment
+390	a	b	d	e	f	g	h	An Asian person with yellow sandals sitting with a basket to their right.	An Asian bartender with yellow sandals sitting with a basket to their right.	a	b	c	d	e	neutral
+391	a	b	d	e	f	g	h	An Asian bartender with yellow sandals sitting with a basket to their right.	An Asian person with yellow sandals sitting with a basket to their right.	a	b	c	d	e	entailment
+392	a	b	d	e	f	g	h	An Asian person with yellow sandals sitting with a basket to their right.	An Asian professor with yellow sandals sitting with a basket to their right.	a	b	c	d	e	neutral
+393	a	b	d	e	f	g	h	An Asian professor with yellow sandals sitting with a basket to their right.	An Asian person with yellow sandals sitting with a basket to their right.	a	b	c	d	e	entailment
+394	a	b	d	e	f	g	h	An Asian person with yellow sandals sitting with a basket to their right.	An Asian republican with yellow sandals sitting with a basket to their right.	a	b	c	d	e	neutral
+395	a	b	d	e	f	g	h	An Asian republican with yellow sandals sitting with a basket to their right.	An Asian person with yellow sandals sitting with a basket to their right.	a	b	c	d	e	entailment
+396	a	b	d	e	f	g	h	An Asian person with yellow sandals sitting with a basket to their right.	An Asian cowboy with yellow sandals sitting with a basket to their right.	a	b	c	d	e	neutral
+397	a	b	d	e	f	g	h	An Asian cowboy with yellow sandals sitting with a basket to their right.	An Asian person with yellow sandals sitting with a basket to their right.	a	b	c	d	e	entailment
+398	a	b	d	e	f	g	h	An Asian person with yellow sandals sitting with a basket to their right.	An Asian pilot with yellow sandals sitting with a basket to their right.	a	b	c	d	e	neutral
+399	a	b	d	e	f	g	h	An Asian pilot with yellow sandals sitting with a basket to their right.	An Asian person with yellow sandals sitting with a basket to their right.	a	b	c	d	e	entailment
+400	a	b	d	e	f	g	h	An Asian person with yellow sandals sitting with a basket to their right.	An Asian taxidermist with yellow sandals sitting with a basket to their right.	a	b	c	d	e	neutral
+401	a	b	d	e	f	g	h	An Asian taxidermist with yellow sandals sitting with a basket to their right.	An Asian person with yellow sandals sitting with a basket to their right.	a	b	c	d	e	entailment
+402	a	b	d	e	f	g	h	An Asian person with yellow sandals sitting with a basket to their right.	An Asian prince with yellow sandals sitting with a basket to their right.	a	b	c	d	e	neutral
+403	a	b	d	e	f	g	h	An Asian prince with yellow sandals sitting with a basket to their right.	An Asian person with yellow sandals sitting with a basket to their right.	a	b	c	d	e	entailment
+404	a	b	d	e	f	g	h	An Asian person with yellow sandals sitting with a basket to their right.	An Asian businessperson with yellow sandals sitting with a basket to their right.	a	b	c	d	e	neutral
+405	a	b	d	e	f	g	h	An Asian businessperson with yellow sandals sitting with a basket to their right.	An Asian person with yellow sandals sitting with a basket to their right.	a	b	c	d	e	entailment
+406	a	b	d	e	f	g	h	An Asian person with yellow sandals sitting with a basket to their right.	An Asian repairman with yellow sandals sitting with a basket to their right.	a	b	c	d	e	neutral
+407	a	b	d	e	f	g	h	An Asian repairman with yellow sandals sitting with a basket to their right.	An Asian person with yellow sandals sitting with a basket to their right.	a	b	c	d	e	entailment
+408	a	b	d	e	f	g	h	An Asian person with yellow sandals sitting with a basket to their right.	An Asian pimp with yellow sandals sitting with a basket to their right.	a	b	c	d	e	neutral
+409	a	b	d	e	f	g	h	An Asian pimp with yellow sandals sitting with a basket to their right.	An Asian person with yellow sandals sitting with a basket to their right.	a	b	c	d	e	entailment
+410	a	b	d	e	f	g	h	An Asian person with yellow sandals sitting with a basket to their right.	An Asian billionaire with yellow sandals sitting with a basket to their right.	a	b	c	d	e	neutral
+411	a	b	d	e	f	g	h	An Asian billionaire with yellow sandals sitting with a basket to their right.	An Asian person with yellow sandals sitting with a basket to their right.	a	b	c	d	e	entailment
+412	a	b	d	e	f	g	h	Several people in line for checkout at a large store.	Several people in line for checkout at a large drugstore.	a	b	c	d	e	neutral
+413	a	b	d	e	f	g	h	Several people in line for checkout at a large drugstore.	Several people in line for checkout at a large store.	a	b	c	d	e	entailment
+414	a	b	d	e	f	g	h	Several people in line for checkout at a large store.	Several people in line for checkout at a large boutique.	a	b	c	d	e	neutral
+415	a	b	d	e	f	g	h	Several people in line for checkout at a large boutique.	Several people in line for checkout at a large store.	a	b	c	d	e	entailment
+416	a	b	d	e	f	g	h	Several people in line for checkout at a large store.	Several people in line for checkout at a large florist.	a	b	c	d	e	neutral
+417	a	b	d	e	f	g	h	Several people in line for checkout at a large florist.	Several people in line for checkout at a large store.	a	b	c	d	e	entailment
+418	a	b	d	e	f	g	h	Several people in line for checkout at a large store.	Several people in line for checkout at a large bookstore.	a	b	c	d	e	neutral
+419	a	b	d	e	f	g	h	Several people in line for checkout at a large bookstore.	Several people in line for checkout at a large store.	a	b	c	d	e	entailment
+420	a	b	d	e	f	g	h	A dog chases a stuffed animal attached to a string.	A dog chases a stuffed bluebird attached to a string.	a	b	c	d	e	neutral
+421	a	b	d	e	f	g	h	A dog chases a stuffed bluebird attached to a string.	A dog chases a stuffed animal attached to a string.	a	b	c	d	e	entailment
+422	a	b	d	e	f	g	h	A dog chases a stuffed animal attached to a string.	A dog chases a stuffed baboon attached to a string.	a	b	c	d	e	neutral
+423	a	b	d	e	f	g	h	A dog chases a stuffed baboon attached to a string.	A dog chases a stuffed animal attached to a string.	a	b	c	d	e	entailment
+424	a	b	d	e	f	g	h	A dog chases a stuffed animal attached to a string.	A dog chases a stuffed weasel attached to a string.	a	b	c	d	e	neutral
+425	a	b	d	e	f	g	h	A dog chases a stuffed weasel attached to a string.	A dog chases a stuffed animal attached to a string.	a	b	c	d	e	entailment
+426	a	b	d	e	f	g	h	A dog chases a stuffed animal attached to a string.	A dog chases a stuffed parrot attached to a string.	a	b	c	d	e	neutral
+427	a	b	d	e	f	g	h	A dog chases a stuffed parrot attached to a string.	A dog chases a stuffed animal attached to a string.	a	b	c	d	e	entailment
+428	a	b	d	e	f	g	h	A dog chases a stuffed animal attached to a string.	A dog chases a stuffed gopher attached to a string.	a	b	c	d	e	neutral
+429	a	b	d	e	f	g	h	A dog chases a stuffed gopher attached to a string.	A dog chases a stuffed animal attached to a string.	a	b	c	d	e	entailment
+430	a	b	d	e	f	g	h	A dog chases a stuffed animal attached to a string.	A dog chases a stuffed quail attached to a string.	a	b	c	d	e	neutral
+431	a	b	d	e	f	g	h	A dog chases a stuffed quail attached to a string.	A dog chases a stuffed animal attached to a string.	a	b	c	d	e	entailment
+432	a	b	d	e	f	g	h	A dog chases a stuffed animal attached to a string.	A dog chases a stuffed snake attached to a string.	a	b	c	d	e	neutral
+433	a	b	d	e	f	g	h	A dog chases a stuffed snake attached to a string.	A dog chases a stuffed animal attached to a string.	a	b	c	d	e	entailment
+434	a	b	d	e	f	g	h	A dog chases a stuffed animal attached to a string.	A dog chases a stuffed sheep attached to a string.	a	b	c	d	e	neutral
+435	a	b	d	e	f	g	h	A dog chases a stuffed sheep attached to a string.	A dog chases a stuffed animal attached to a string.	a	b	c	d	e	entailment
+436	a	b	d	e	f	g	h	A dog chases a stuffed animal attached to a string.	A dog chases a stuffed ostrich attached to a string.	a	b	c	d	e	neutral
+437	a	b	d	e	f	g	h	A dog chases a stuffed ostrich attached to a string.	A dog chases a stuffed animal attached to a string.	a	b	c	d	e	entailment
+438	a	b	d	e	f	g	h	A dog chases a stuffed animal attached to a string.	A dog chases a stuffed caterpillar attached to a string.	a	b	c	d	e	neutral
+439	a	b	d	e	f	g	h	A dog chases a stuffed caterpillar attached to a string.	A dog chases a stuffed animal attached to a string.	a	b	c	d	e	entailment
+440	a	b	d	e	f	g	h	A dog chases a stuffed animal attached to a string.	A dog chases a stuffed porcupine attached to a string.	a	b	c	d	e	neutral
+441	a	b	d	e	f	g	h	A dog chases a stuffed porcupine attached to a string.	A dog chases a stuffed animal attached to a string.	a	b	c	d	e	entailment
+442	a	b	d	e	f	g	h	A dog chases a stuffed animal attached to a string.	A dog chases a stuffed leopard attached to a string.	a	b	c	d	e	neutral
+443	a	b	d	e	f	g	h	A dog chases a stuffed leopard attached to a string.	A dog chases a stuffed animal attached to a string.	a	b	c	d	e	entailment
+444	a	b	d	e	f	g	h	A dog chases a stuffed animal attached to a string.	A dog chases a stuffed python attached to a string.	a	b	c	d	e	neutral
+445	a	b	d	e	f	g	h	A dog chases a stuffed python attached to a string.	A dog chases a stuffed animal attached to a string.	a	b	c	d	e	entailment
+446	a	b	d	e	f	g	h	A dog chases a stuffed animal attached to a string.	A dog chases a stuffed camel attached to a string.	a	b	c	d	e	neutral
+447	a	b	d	e	f	g	h	A dog chases a stuffed camel attached to a string.	A dog chases a stuffed animal attached to a string.	a	b	c	d	e	entailment
+448	a	b	d	e	f	g	h	A dog chases a stuffed animal attached to a string.	A dog chases a stuffed mouse attached to a string.	a	b	c	d	e	neutral
+449	a	b	d	e	f	g	h	A dog chases a stuffed mouse attached to a string.	A dog chases a stuffed animal attached to a string.	a	b	c	d	e	entailment
+450	a	b	d	e	f	g	h	A dog chases a stuffed animal attached to a string.	A dog chases a stuffed bull attached to a string.	a	b	c	d	e	neutral
+451	a	b	d	e	f	g	h	A dog chases a stuffed bull attached to a string.	A dog chases a stuffed animal attached to a string.	a	b	c	d	e	entailment
+452	a	b	d	e	f	g	h	A dog chases a stuffed animal attached to a string.	A dog chases a stuffed eagle attached to a string.	a	b	c	d	e	neutral
+453	a	b	d	e	f	g	h	A dog chases a stuffed eagle attached to a string.	A dog chases a stuffed animal attached to a string.	a	b	c	d	e	entailment
+454	a	b	d	e	f	g	h	A dog chases a stuffed animal attached to a string.	A dog chases a stuffed panda attached to a string.	a	b	c	d	e	neutral
+455	a	b	d	e	f	g	h	A dog chases a stuffed panda attached to a string.	A dog chases a stuffed animal attached to a string.	a	b	c	d	e	entailment
+456	a	b	d	e	f	g	h	A dog chases a stuffed animal attached to a string.	A dog chases a stuffed llama attached to a string.	a	b	c	d	e	neutral
+457	a	b	d	e	f	g	h	A dog chases a stuffed llama attached to a string.	A dog chases a stuffed animal attached to a string.	a	b	c	d	e	entailment
+458	a	b	d	e	f	g	h	A man is standing in a field looking at a plant in his hand.	A man is standing in a field looking at a dandelion in his hand.	a	b	c	d	e	neutral
+459	a	b	d	e	f	g	h	A man is standing in a field looking at a dandelion in his hand.	A man is standing in a field looking at a plant in his hand.	a	b	c	d	e	entailment
+460	a	b	d	e	f	g	h	A man is standing in a field looking at a plant in his hand.	A man is standing in a field looking at a milkweed in his hand.	a	b	c	d	e	neutral
+461	a	b	d	e	f	g	h	A man is standing in a field looking at a milkweed in his hand.	A man is standing in a field looking at a plant in his hand.	a	b	c	d	e	entailment
+462	a	b	d	e	f	g	h	A man is standing in a field looking at a plant in his hand.	A man is standing in a field looking at a tumbleweed in his hand.	a	b	c	d	e	neutral
+463	a	b	d	e	f	g	h	A man is standing in a field looking at a tumbleweed in his hand.	A man is standing in a field looking at a plant in his hand.	a	b	c	d	e	entailment
+464	a	b	d	e	f	g	h	A man is standing in a field looking at a plant in his hand.	A man is standing in a field looking at a fern in his hand.	a	b	c	d	e	neutral
+465	a	b	d	e	f	g	h	A man is standing in a field looking at a fern in his hand.	A man is standing in a field looking at a plant in his hand.	a	b	c	d	e	entailment
+466	a	b	d	e	f	g	h	A man is standing in a field looking at a plant in his hand.	A man is standing in a field looking at a lotus in his hand.	a	b	c	d	e	neutral
+467	a	b	d	e	f	g	h	A man is standing in a field looking at a lotus in his hand.	A man is standing in a field looking at a plant in his hand.	a	b	c	d	e	entailment
+468	a	b	d	e	f	g	h	A man is standing in a field looking at a plant in his hand.	A man is standing in a field looking at a shrub in his hand.	a	b	c	d	e	neutral
+469	a	b	d	e	f	g	h	A man is standing in a field looking at a shrub in his hand.	A man is standing in a field looking at a plant in his hand.	a	b	c	d	e	entailment
+470	a	b	d	e	f	g	h	A man is standing in a field looking at a plant in his hand.	A man is standing in a field looking at a reed in his hand.	a	b	c	d	e	neutral
+471	a	b	d	e	f	g	h	A man is standing in a field looking at a reed in his hand.	A man is standing in a field looking at a plant in his hand.	a	b	c	d	e	entailment
+472	a	b	d	e	f	g	h	A man is standing in a field looking at a plant in his hand.	A man is standing in a field looking at a cactus in his hand.	a	b	c	d	e	neutral
+473	a	b	d	e	f	g	h	A man is standing in a field looking at a cactus in his hand.	A man is standing in a field looking at a plant in his hand.	a	b	c	d	e	entailment
+474	a	b	d	e	f	g	h	A man is standing in a field looking at a plant in his hand.	A man is standing in a field looking at a poppy in his hand.	a	b	c	d	e	neutral
+475	a	b	d	e	f	g	h	A man is standing in a field looking at a poppy in his hand.	A man is standing in a field looking at a plant in his hand.	a	b	c	d	e	entailment
+476	a	b	d	e	f	g	h	A man is standing in a field looking at a plant in his hand.	A man is standing in a field looking at a sapling in his hand.	a	b	c	d	e	neutral
+477	a	b	d	e	f	g	h	A man is standing in a field looking at a sapling in his hand.	A man is standing in a field looking at a plant in his hand.	a	b	c	d	e	entailment
+478	a	b	d	e	f	g	h	A man is standing in a field looking at a plant in his hand.	A man is standing in a field looking at a lilac in his hand.	a	b	c	d	e	neutral
+479	a	b	d	e	f	g	h	A man is standing in a field looking at a lilac in his hand.	A man is standing in a field looking at a plant in his hand.	a	b	c	d	e	entailment
+480	a	b	d	e	f	g	h	A man is standing in a field looking at a plant in his hand.	A man is standing in a field looking at a flower in his hand.	a	b	c	d	e	neutral
+481	a	b	d	e	f	g	h	A man is standing in a field looking at a flower in his hand.	A man is standing in a field looking at a plant in his hand.	a	b	c	d	e	entailment
+482	a	b	d	e	f	g	h	A man is standing in a field looking at a plant in his hand.	A man is standing in a field looking at a sunflower in his hand.	a	b	c	d	e	neutral
+483	a	b	d	e	f	g	h	A man is standing in a field looking at a sunflower in his hand.	A man is standing in a field looking at a plant in his hand.	a	b	c	d	e	entailment
+484	a	b	d	e	f	g	h	A man is standing in a field looking at a plant in his hand.	A man is standing in a field looking at a vine in his hand.	a	b	c	d	e	neutral
+485	a	b	d	e	f	g	h	A man is standing in a field looking at a vine in his hand.	A man is standing in a field looking at a plant in his hand.	a	b	c	d	e	entailment
+486	a	b	d	e	f	g	h	A man is standing in a field looking at a plant in his hand.	A man is standing in a field looking at a rose in his hand.	a	b	c	d	e	neutral
+487	a	b	d	e	f	g	h	A man is standing in a field looking at a rose in his hand.	A man is standing in a field looking at a plant in his hand.	a	b	c	d	e	entailment
+488	a	b	d	e	f	g	h	A man is standing in a field looking at a plant in his hand.	A man is standing in a field looking at a lily in his hand.	a	b	c	d	e	neutral
+489	a	b	d	e	f	g	h	A man is standing in a field looking at a lily in his hand.	A man is standing in a field looking at a plant in his hand.	a	b	c	d	e	entailment
+490	a	b	d	e	f	g	h	A man is standing in a field looking at a plant in his hand.	A man is standing in a field looking at a herb in his hand.	a	b	c	d	e	neutral
+491	a	b	d	e	f	g	h	A man is standing in a field looking at a herb in his hand.	A man is standing in a field looking at a plant in his hand.	a	b	c	d	e	entailment
+492	a	b	d	e	f	g	h	A man is standing in a field looking at a plant in his hand.	A man is standing in a field looking at a daisy in his hand.	a	b	c	d	e	neutral
+493	a	b	d	e	f	g	h	A man is standing in a field looking at a daisy in his hand.	A man is standing in a field looking at a plant in his hand.	a	b	c	d	e	entailment
+494	a	b	d	e	f	g	h	A man is standing in a field looking at a plant in his hand.	A man is standing in a field looking at a weed in his hand.	a	b	c	d	e	neutral
+495	a	b	d	e	f	g	h	A man is standing in a field looking at a weed in his hand.	A man is standing in a field looking at a plant in his hand.	a	b	c	d	e	entailment
+496	a	b	d	e	f	g	h	A man is standing in a field looking at a plant in his hand.	A man is standing in a field looking at a clover in his hand.	a	b	c	d	e	neutral
+497	a	b	d	e	f	g	h	A man is standing in a field looking at a clover in his hand.	A man is standing in a field looking at a plant in his hand.	a	b	c	d	e	entailment
+498	a	b	d	e	f	g	h	A woman holding a flower stands in front of a marketplace tableau of vibrant green produce, including, lettuce of various types, cactus, radishes, and various herbs.	A woman holding a carnation stands in front of a marketplace tableau of vibrant green produce, including, lettuce of various types, cactus, radishes, and various herbs.	a	b	c	d	e	neutral
+499	a	b	d	e	f	g	h	A woman holding a carnation stands in front of a marketplace tableau of vibrant green produce, including, lettuce of various types, cactus, radishes, and various herbs.	A woman holding a flower stands in front of a marketplace tableau of vibrant green produce, including, lettuce of various types, cactus, radishes, and various herbs.	a	b	c	d	e	entailment
+500	a	b	d	e	f	g	h	A woman holding a flower stands in front of a marketplace tableau of vibrant green produce, including, lettuce of various types, cactus, radishes, and various herbs.	A woman holding a poppy stands in front of a marketplace tableau of vibrant green produce, including, lettuce of various types, cactus, radishes, and various herbs.	a	b	c	d	e	neutral
+501	a	b	d	e	f	g	h	A woman holding a poppy stands in front of a marketplace tableau of vibrant green produce, including, lettuce of various types, cactus, radishes, and various herbs.	A woman holding a flower stands in front of a marketplace tableau of vibrant green produce, including, lettuce of various types, cactus, radishes, and various herbs.	a	b	c	d	e	entailment
+502	a	b	d	e	f	g	h	A woman holding a flower stands in front of a marketplace tableau of vibrant green produce, including, lettuce of various types, cactus, radishes, and various herbs.	A woman holding a daisy stands in front of a marketplace tableau of vibrant green produce, including, lettuce of various types, cactus, radishes, and various herbs.	a	b	c	d	e	neutral
+503	a	b	d	e	f	g	h	A woman holding a daisy stands in front of a marketplace tableau of vibrant green produce, including, lettuce of various types, cactus, radishes, and various herbs.	A woman holding a flower stands in front of a marketplace tableau of vibrant green produce, including, lettuce of various types, cactus, radishes, and various herbs.	a	b	c	d	e	entailment
+504	a	b	d	e	f	g	h	A woman holding a flower stands in front of a marketplace tableau of vibrant green produce, including, lettuce of various types, cactus, radishes, and various herbs.	A woman holding a sunflower stands in front of a marketplace tableau of vibrant green produce, including, lettuce of various types, cactus, radishes, and various herbs.	a	b	c	d	e	neutral
+505	a	b	d	e	f	g	h	A woman holding a sunflower stands in front of a marketplace tableau of vibrant green produce, including, lettuce of various types, cactus, radishes, and various herbs.	A woman holding a flower stands in front of a marketplace tableau of vibrant green produce, including, lettuce of various types, cactus, radishes, and various herbs.	a	b	c	d	e	entailment
+506	a	b	d	e	f	g	h	two young girls wearing bonnets standing by a tree watching a snake nearby.	two young girls wearing bonnets standing by a tree watching a reptile nearby.	a	b	c	d	e	entailment
+507	a	b	d	e	f	g	h	two young girls wearing bonnets standing by a tree watching a reptile nearby.	two young girls wearing bonnets standing by a tree watching a snake nearby.	a	b	c	d	e	neutral
+508	a	b	d	e	f	g	h	two young girls wearing bonnets standing by a tree watching a snake nearby.	two young girls wearing bonnets standing by a tree watching a creature nearby.	a	b	c	d	e	entailment
+509	a	b	d	e	f	g	h	two young girls wearing bonnets standing by a tree watching a creature nearby.	two young girls wearing bonnets standing by a tree watching a snake nearby.	a	b	c	d	e	neutral
+510	a	b	d	e	f	g	h	two young girls wearing bonnets standing by a tree watching a snake nearby.	two young girls wearing bonnets standing by a tree watching a python nearby.	a	b	c	d	e	neutral
+511	a	b	d	e	f	g	h	two young girls wearing bonnets standing by a tree watching a python nearby.	two young girls wearing bonnets standing by a tree watching a snake nearby.	a	b	c	d	e	entailment
+512	a	b	d	e	f	g	h	two young girls wearing bonnets standing by a tree watching a snake nearby.	two young girls wearing bonnets standing by a tree watching a cobra nearby.	a	b	c	d	e	neutral
+513	a	b	d	e	f	g	h	two young girls wearing bonnets standing by a tree watching a cobra nearby.	two young girls wearing bonnets standing by a tree watching a snake nearby.	a	b	c	d	e	entailment
+514	a	b	d	e	f	g	h	two young girls wearing bonnets standing by a tree watching a snake nearby.	two young girls wearing bonnets standing by a tree watching a boa nearby.	a	b	c	d	e	neutral
+515	a	b	d	e	f	g	h	two young girls wearing bonnets standing by a tree watching a boa nearby.	two young girls wearing bonnets standing by a tree watching a snake nearby.	a	b	c	d	e	entailment
+516	a	b	d	e	f	g	h	A person stands atop a rock face.	A pagan stands atop a rock face.	a	b	c	d	e	neutral
+517	a	b	d	e	f	g	h	A pagan stands atop a rock face.	A person stands atop a rock face.	a	b	c	d	e	entailment
+518	a	b	d	e	f	g	h	A person stands atop a rock face.	A runner stands atop a rock face.	a	b	c	d	e	neutral
+519	a	b	d	e	f	g	h	A runner stands atop a rock face.	A person stands atop a rock face.	a	b	c	d	e	entailment
+520	a	b	d	e	f	g	h	A person stands atop a rock face.	A landscaper stands atop a rock face.	a	b	c	d	e	neutral
+521	a	b	d	e	f	g	h	A landscaper stands atop a rock face.	A person stands atop a rock face.	a	b	c	d	e	entailment
+522	a	b	d	e	f	g	h	A person stands atop a rock face.	A sophomore stands atop a rock face.	a	b	c	d	e	neutral
+523	a	b	d	e	f	g	h	A sophomore stands atop a rock face.	A person stands atop a rock face.	a	b	c	d	e	entailment
+524	a	b	d	e	f	g	h	A person stands atop a rock face.	A shepherd stands atop a rock face.	a	b	c	d	e	neutral
+525	a	b	d	e	f	g	h	A shepherd stands atop a rock face.	A person stands atop a rock face.	a	b	c	d	e	entailment
+526	a	b	d	e	f	g	h	A person stands atop a rock face.	A housekeeper stands atop a rock face.	a	b	c	d	e	neutral
+527	a	b	d	e	f	g	h	A housekeeper stands atop a rock face.	A person stands atop a rock face.	a	b	c	d	e	entailment
+528	a	b	d	e	f	g	h	A person stands atop a rock face.	A fireman stands atop a rock face.	a	b	c	d	e	neutral
+529	a	b	d	e	f	g	h	A fireman stands atop a rock face.	A person stands atop a rock face.	a	b	c	d	e	entailment
+530	a	b	d	e	f	g	h	A person stands atop a rock face.	A detective stands atop a rock face.	a	b	c	d	e	neutral
+531	a	b	d	e	f	g	h	A detective stands atop a rock face.	A person stands atop a rock face.	a	b	c	d	e	entailment
+532	a	b	d	e	f	g	h	A person stands atop a rock face.	A physicist stands atop a rock face.	a	b	c	d	e	neutral
+533	a	b	d	e	f	g	h	A physicist stands atop a rock face.	A person stands atop a rock face.	a	b	c	d	e	entailment
+534	a	b	d	e	f	g	h	A person stands atop a rock face.	A oldtimer stands atop a rock face.	a	b	c	d	e	neutral
+535	a	b	d	e	f	g	h	A oldtimer stands atop a rock face.	A person stands atop a rock face.	a	b	c	d	e	entailment
+536	a	b	d	e	f	g	h	A person stands atop a rock face.	A steward stands atop a rock face.	a	b	c	d	e	neutral
+537	a	b	d	e	f	g	h	A steward stands atop a rock face.	A person stands atop a rock face.	a	b	c	d	e	entailment
+538	a	b	d	e	f	g	h	A person stands atop a rock face.	A Ukranian stands atop a rock face.	a	b	c	d	e	neutral
+539	a	b	d	e	f	g	h	A Ukranian stands atop a rock face.	A person stands atop a rock face.	a	b	c	d	e	entailment
+540	a	b	d	e	f	g	h	A person stands atop a rock face.	A actress stands atop a rock face.	a	b	c	d	e	neutral
+541	a	b	d	e	f	g	h	A actress stands atop a rock face.	A person stands atop a rock face.	a	b	c	d	e	entailment
+542	a	b	d	e	f	g	h	A person stands atop a rock face.	A businessman stands atop a rock face.	a	b	c	d	e	neutral
+543	a	b	d	e	f	g	h	A businessman stands atop a rock face.	A person stands atop a rock face.	a	b	c	d	e	entailment
+544	a	b	d	e	f	g	h	A person stands atop a rock face.	A stewardess stands atop a rock face.	a	b	c	d	e	neutral
+545	a	b	d	e	f	g	h	A stewardess stands atop a rock face.	A person stands atop a rock face.	a	b	c	d	e	entailment
+546	a	b	d	e	f	g	h	A person stands atop a rock face.	A Cambodian stands atop a rock face.	a	b	c	d	e	neutral
+547	a	b	d	e	f	g	h	A Cambodian stands atop a rock face.	A person stands atop a rock face.	a	b	c	d	e	entailment
+548	a	b	d	e	f	g	h	A person stands atop a rock face.	A consultant stands atop a rock face.	a	b	c	d	e	neutral
+549	a	b	d	e	f	g	h	A consultant stands atop a rock face.	A person stands atop a rock face.	a	b	c	d	e	entailment
+550	a	b	d	e	f	g	h	A person stands atop a rock face.	A sergeant stands atop a rock face.	a	b	c	d	e	neutral
+551	a	b	d	e	f	g	h	A sergeant stands atop a rock face.	A person stands atop a rock face.	a	b	c	d	e	entailment
+552	a	b	d	e	f	g	h	A person stands atop a rock face.	A fiddler stands atop a rock face.	a	b	c	d	e	neutral
+553	a	b	d	e	f	g	h	A fiddler stands atop a rock face.	A person stands atop a rock face.	a	b	c	d	e	entailment
+554	a	b	d	e	f	g	h	A person stands atop a rock face.	A trooper stands atop a rock face.	a	b	c	d	e	neutral
+555	a	b	d	e	f	g	h	A trooper stands atop a rock face.	A person stands atop a rock face.	a	b	c	d	e	entailment
+556	a	b	d	e	f	g	h	A person stands atop a rock face.	A gal stands atop a rock face.	a	b	c	d	e	neutral
+557	a	b	d	e	f	g	h	A gal stands atop a rock face.	A person stands atop a rock face.	a	b	c	d	e	entailment
+558	a	b	d	e	f	g	h	A person stands atop a rock face.	A farmer stands atop a rock face.	a	b	c	d	e	neutral
+559	a	b	d	e	f	g	h	A farmer stands atop a rock face.	A person stands atop a rock face.	a	b	c	d	e	entailment
+560	a	b	d	e	f	g	h	A person stands atop a rock face.	A cop stands atop a rock face.	a	b	c	d	e	neutral
+561	a	b	d	e	f	g	h	A cop stands atop a rock face.	A person stands atop a rock face.	a	b	c	d	e	entailment
+562	a	b	d	e	f	g	h	A person stands atop a rock face.	A vegetarian stands atop a rock face.	a	b	c	d	e	neutral
+563	a	b	d	e	f	g	h	A vegetarian stands atop a rock face.	A person stands atop a rock face.	a	b	c	d	e	entailment
+564	a	b	d	e	f	g	h	A person stands atop a rock face.	A Californian stands atop a rock face.	a	b	c	d	e	neutral
+565	a	b	d	e	f	g	h	A Californian stands atop a rock face.	A person stands atop a rock face.	a	b	c	d	e	entailment
+566	a	b	d	e	f	g	h	A person stands atop a rock face.	A locksmith stands atop a rock face.	a	b	c	d	e	neutral
+567	a	b	d	e	f	g	h	A locksmith stands atop a rock face.	A person stands atop a rock face.	a	b	c	d	e	entailment
+568	a	b	d	e	f	g	h	A person stands atop a rock face.	A Argentinian stands atop a rock face.	a	b	c	d	e	neutral
+569	a	b	d	e	f	g	h	A Argentinian stands atop a rock face.	A person stands atop a rock face.	a	b	c	d	e	entailment
+570	a	b	d	e	f	g	h	A person stands atop a rock face.	A goalkeeper stands atop a rock face.	a	b	c	d	e	neutral
+571	a	b	d	e	f	g	h	A goalkeeper stands atop a rock face.	A person stands atop a rock face.	a	b	c	d	e	entailment
+572	a	b	d	e	f	g	h	A person stands atop a rock face.	A navigator stands atop a rock face.	a	b	c	d	e	neutral
+573	a	b	d	e	f	g	h	A navigator stands atop a rock face.	A person stands atop a rock face.	a	b	c	d	e	entailment
+574	a	b	d	e	f	g	h	A person stands atop a rock face.	A Indian stands atop a rock face.	a	b	c	d	e	neutral
+575	a	b	d	e	f	g	h	A Indian stands atop a rock face.	A person stands atop a rock face.	a	b	c	d	e	entailment
+576	a	b	d	e	f	g	h	A person stands atop a rock face.	A genius stands atop a rock face.	a	b	c	d	e	neutral
+577	a	b	d	e	f	g	h	A genius stands atop a rock face.	A person stands atop a rock face.	a	b	c	d	e	entailment
+578	a	b	d	e	f	g	h	A person stands atop a rock face.	A youth stands atop a rock face.	a	b	c	d	e	neutral
+579	a	b	d	e	f	g	h	A youth stands atop a rock face.	A person stands atop a rock face.	a	b	c	d	e	entailment
+580	a	b	d	e	f	g	h	A person stands atop a rock face.	A cleaner stands atop a rock face.	a	b	c	d	e	neutral
+581	a	b	d	e	f	g	h	A cleaner stands atop a rock face.	A person stands atop a rock face.	a	b	c	d	e	entailment
+582	a	b	d	e	f	g	h	A person stands atop a rock face.	A lunatic stands atop a rock face.	a	b	c	d	e	neutral
+583	a	b	d	e	f	g	h	A lunatic stands atop a rock face.	A person stands atop a rock face.	a	b	c	d	e	entailment
+584	a	b	d	e	f	g	h	A person stands atop a rock face.	A architect stands atop a rock face.	a	b	c	d	e	neutral
+585	a	b	d	e	f	g	h	A architect stands atop a rock face.	A person stands atop a rock face.	a	b	c	d	e	entailment
+586	a	b	d	e	f	g	h	A person stands atop a rock face.	A tribesman stands atop a rock face.	a	b	c	d	e	neutral
+587	a	b	d	e	f	g	h	A tribesman stands atop a rock face.	A person stands atop a rock face.	a	b	c	d	e	entailment
+588	a	b	d	e	f	g	h	A swimming pool with men tossing a ball around.	A swimming pool with men tossing a volleyball around.	a	b	c	d	e	neutral
+589	a	b	d	e	f	g	h	A swimming pool with men tossing a volleyball around.	A swimming pool with men tossing a ball around.	a	b	c	d	e	entailment
+590	a	b	d	e	f	g	h	A swimming pool with men tossing a ball around.	A swimming pool with men tossing a football around.	a	b	c	d	e	neutral
+591	a	b	d	e	f	g	h	A swimming pool with men tossing a football around.	A swimming pool with men tossing a ball around.	a	b	c	d	e	entailment
+592	a	b	d	e	f	g	h	A swimming pool with men tossing a ball around.	A swimming pool with men tossing a baseball around.	a	b	c	d	e	neutral
+593	a	b	d	e	f	g	h	A swimming pool with men tossing a baseball around.	A swimming pool with men tossing a ball around.	a	b	c	d	e	entailment
+594	a	b	d	e	f	g	h	A swimming pool with men tossing a ball around.	A swimming pool with men tossing a basketball around.	a	b	c	d	e	neutral
+595	a	b	d	e	f	g	h	A swimming pool with men tossing a basketball around.	A swimming pool with men tossing a ball around.	a	b	c	d	e	entailment
+596	a	b	d	e	f	g	h	A swimming pool with men tossing a ball around.	A swimming pool with men tossing a softball around.	a	b	c	d	e	neutral
+597	a	b	d	e	f	g	h	A swimming pool with men tossing a softball around.	A swimming pool with men tossing a ball around.	a	b	c	d	e	entailment
+598	a	b	d	e	f	g	h	A swimming pool with men tossing a ball around.	A swimming pool with men tossing a racquetball around.	a	b	c	d	e	neutral
+599	a	b	d	e	f	g	h	A swimming pool with men tossing a racquetball around.	A swimming pool with men tossing a ball around.	a	b	c	d	e	entailment
+600	a	b	d	e	f	g	h	A female athlete is running after exiting a swimming pool.	A female individual is running after exiting a swimming pool.	a	b	c	d	e	entailment
+601	a	b	d	e	f	g	h	A female individual is running after exiting a swimming pool.	A female athlete is running after exiting a swimming pool.	a	b	c	d	e	neutral
+602	a	b	d	e	f	g	h	A female athlete is running after exiting a swimming pool.	A female goalie is running after exiting a swimming pool.	a	b	c	d	e	neutral
+603	a	b	d	e	f	g	h	A female goalie is running after exiting a swimming pool.	A female athlete is running after exiting a swimming pool.	a	b	c	d	e	entailment
+604	a	b	d	e	f	g	h	A female athlete is running after exiting a swimming pool.	A female pitcher is running after exiting a swimming pool.	a	b	c	d	e	neutral
+605	a	b	d	e	f	g	h	A female pitcher is running after exiting a swimming pool.	A female athlete is running after exiting a swimming pool.	a	b	c	d	e	entailment
+606	a	b	d	e	f	g	h	A female athlete is running after exiting a swimming pool.	A female cricketer is running after exiting a swimming pool.	a	b	c	d	e	neutral
+607	a	b	d	e	f	g	h	A female cricketer is running after exiting a swimming pool.	A female athlete is running after exiting a swimming pool.	a	b	c	d	e	entailment
+608	a	b	d	e	f	g	h	A female athlete is running after exiting a swimming pool.	A female outfielder is running after exiting a swimming pool.	a	b	c	d	e	neutral
+609	a	b	d	e	f	g	h	A female outfielder is running after exiting a swimming pool.	A female athlete is running after exiting a swimming pool.	a	b	c	d	e	entailment
+610	a	b	d	e	f	g	h	A female athlete is running after exiting a swimming pool.	A female marathoner is running after exiting a swimming pool.	a	b	c	d	e	neutral
+611	a	b	d	e	f	g	h	A female marathoner is running after exiting a swimming pool.	A female athlete is running after exiting a swimming pool.	a	b	c	d	e	entailment
+612	a	b	d	e	f	g	h	A female athlete is running after exiting a swimming pool.	A female ballplayer is running after exiting a swimming pool.	a	b	c	d	e	neutral
+613	a	b	d	e	f	g	h	A female ballplayer is running after exiting a swimming pool.	A female athlete is running after exiting a swimming pool.	a	b	c	d	e	entailment
+614	a	b	d	e	f	g	h	A female athlete is running after exiting a swimming pool.	A female sprinter is running after exiting a swimming pool.	a	b	c	d	e	neutral
+615	a	b	d	e	f	g	h	A female sprinter is running after exiting a swimming pool.	A female athlete is running after exiting a swimming pool.	a	b	c	d	e	entailment
+616	a	b	d	e	f	g	h	A female athlete is running after exiting a swimming pool.	A female linebacker is running after exiting a swimming pool.	a	b	c	d	e	neutral
+617	a	b	d	e	f	g	h	A female linebacker is running after exiting a swimming pool.	A female athlete is running after exiting a swimming pool.	a	b	c	d	e	entailment
+618	a	b	d	e	f	g	h	A female athlete is running after exiting a swimming pool.	A female punter is running after exiting a swimming pool.	a	b	c	d	e	neutral
+619	a	b	d	e	f	g	h	A female punter is running after exiting a swimming pool.	A female athlete is running after exiting a swimming pool.	a	b	c	d	e	entailment
+620	a	b	d	e	f	g	h	A female athlete is running after exiting a swimming pool.	A female catcher is running after exiting a swimming pool.	a	b	c	d	e	neutral
+621	a	b	d	e	f	g	h	A female catcher is running after exiting a swimming pool.	A female athlete is running after exiting a swimming pool.	a	b	c	d	e	entailment
+622	a	b	d	e	f	g	h	A female athlete is running after exiting a swimming pool.	A female kicker is running after exiting a swimming pool.	a	b	c	d	e	neutral
+623	a	b	d	e	f	g	h	A female kicker is running after exiting a swimming pool.	A female athlete is running after exiting a swimming pool.	a	b	c	d	e	entailment
+624	a	b	d	e	f	g	h	A female athlete is running after exiting a swimming pool.	A female swimmer is running after exiting a swimming pool.	a	b	c	d	e	neutral
+625	a	b	d	e	f	g	h	A female swimmer is running after exiting a swimming pool.	A female athlete is running after exiting a swimming pool.	a	b	c	d	e	entailment
+626	a	b	d	e	f	g	h	A female athlete is running after exiting a swimming pool.	A female quarterback is running after exiting a swimming pool.	a	b	c	d	e	neutral
+627	a	b	d	e	f	g	h	A female quarterback is running after exiting a swimming pool.	A female athlete is running after exiting a swimming pool.	a	b	c	d	e	entailment
+628	a	b	d	e	f	g	h	A female athlete is running after exiting a swimming pool.	A female bowler is running after exiting a swimming pool.	a	b	c	d	e	neutral
+629	a	b	d	e	f	g	h	A female bowler is running after exiting a swimming pool.	A female athlete is running after exiting a swimming pool.	a	b	c	d	e	entailment
+630	a	b	d	e	f	g	h	A little girl in stripes, overalls and pigtails is eating a piece of fruit in her hands on a sunny day in the shade.	A little girl in stripes, overalls and pigtails is eating a piece of apple in her hands on a sunny day in the shade.	a	b	c	d	e	neutral
+631	a	b	d	e	f	g	h	A little girl in stripes, overalls and pigtails is eating a piece of apple in her hands on a sunny day in the shade.	A little girl in stripes, overalls and pigtails is eating a piece of fruit in her hands on a sunny day in the shade.	a	b	c	d	e	entailment
+632	a	b	d	e	f	g	h	A little girl in stripes, overalls and pigtails is eating a piece of fruit in her hands on a sunny day in the shade.	A little girl in stripes, overalls and pigtails is eating a piece of watermelon in her hands on a sunny day in the shade.	a	b	c	d	e	neutral
+633	a	b	d	e	f	g	h	A little girl in stripes, overalls and pigtails is eating a piece of watermelon in her hands on a sunny day in the shade.	A little girl in stripes, overalls and pigtails is eating a piece of fruit in her hands on a sunny day in the shade.	a	b	c	d	e	entailment
+634	a	b	d	e	f	g	h	A little girl in stripes, overalls and pigtails is eating a piece of fruit in her hands on a sunny day in the shade.	A little girl in stripes, overalls and pigtails is eating a piece of cantaloupe in her hands on a sunny day in the shade.	a	b	c	d	e	neutral
+635	a	b	d	e	f	g	h	A little girl in stripes, overalls and pigtails is eating a piece of cantaloupe in her hands on a sunny day in the shade.	A little girl in stripes, overalls and pigtails is eating a piece of fruit in her hands on a sunny day in the shade.	a	b	c	d	e	entailment
+636	a	b	d	e	f	g	h	A little girl in stripes, overalls and pigtails is eating a piece of fruit in her hands on a sunny day in the shade.	A little girl in stripes, overalls and pigtails is eating a piece of peach in her hands on a sunny day in the shade.	a	b	c	d	e	neutral
+637	a	b	d	e	f	g	h	A little girl in stripes, overalls and pigtails is eating a piece of peach in her hands on a sunny day in the shade.	A little girl in stripes, overalls and pigtails is eating a piece of fruit in her hands on a sunny day in the shade.	a	b	c	d	e	entailment
+638	a	b	d	e	f	g	h	A little girl in stripes, overalls and pigtails is eating a piece of fruit in her hands on a sunny day in the shade.	A little girl in stripes, overalls and pigtails is eating a piece of pear in her hands on a sunny day in the shade.	a	b	c	d	e	neutral
+639	a	b	d	e	f	g	h	A little girl in stripes, overalls and pigtails is eating a piece of pear in her hands on a sunny day in the shade.	A little girl in stripes, overalls and pigtails is eating a piece of fruit in her hands on a sunny day in the shade.	a	b	c	d	e	entailment
+640	a	b	d	e	f	g	h	A little girl in stripes, overalls and pigtails is eating a piece of fruit in her hands on a sunny day in the shade.	A little girl in stripes, overalls and pigtails is eating a piece of pineapple in her hands on a sunny day in the shade.	a	b	c	d	e	neutral
+641	a	b	d	e	f	g	h	A little girl in stripes, overalls and pigtails is eating a piece of pineapple in her hands on a sunny day in the shade.	A little girl in stripes, overalls and pigtails is eating a piece of fruit in her hands on a sunny day in the shade.	a	b	c	d	e	entailment
+642	a	b	d	e	f	g	h	A little girl in stripes, overalls and pigtails is eating a piece of fruit in her hands on a sunny day in the shade.	A little girl in stripes, overalls and pigtails is eating a piece of orange in her hands on a sunny day in the shade.	a	b	c	d	e	neutral
+643	a	b	d	e	f	g	h	A little girl in stripes, overalls and pigtails is eating a piece of orange in her hands on a sunny day in the shade.	A little girl in stripes, overalls and pigtails is eating a piece of fruit in her hands on a sunny day in the shade.	a	b	c	d	e	entailment
+644	a	b	d	e	f	g	h	A little girl in stripes, overalls and pigtails is eating a piece of fruit in her hands on a sunny day in the shade.	A little girl in stripes, overalls and pigtails is eating a piece of lemon in her hands on a sunny day in the shade.	a	b	c	d	e	neutral
+645	a	b	d	e	f	g	h	A little girl in stripes, overalls and pigtails is eating a piece of lemon in her hands on a sunny day in the shade.	A little girl in stripes, overalls and pigtails is eating a piece of fruit in her hands on a sunny day in the shade.	a	b	c	d	e	entailment
+646	a	b	d	e	f	g	h	A little girl in stripes, overalls and pigtails is eating a piece of fruit in her hands on a sunny day in the shade.	A little girl in stripes, overalls and pigtails is eating a piece of plum in her hands on a sunny day in the shade.	a	b	c	d	e	neutral
+647	a	b	d	e	f	g	h	A little girl in stripes, overalls and pigtails is eating a piece of plum in her hands on a sunny day in the shade.	A little girl in stripes, overalls and pigtails is eating a piece of fruit in her hands on a sunny day in the shade.	a	b	c	d	e	entailment
+648	a	b	d	e	f	g	h	A little girl in stripes, overalls and pigtails is eating a piece of fruit in her hands on a sunny day in the shade.	A little girl in stripes, overalls and pigtails is eating a piece of melon in her hands on a sunny day in the shade.	a	b	c	d	e	neutral
+649	a	b	d	e	f	g	h	A little girl in stripes, overalls and pigtails is eating a piece of melon in her hands on a sunny day in the shade.	A little girl in stripes, overalls and pigtails is eating a piece of fruit in her hands on a sunny day in the shade.	a	b	c	d	e	entailment
+650	a	b	d	e	f	g	h	A little girl in stripes, overalls and pigtails is eating a piece of fruit in her hands on a sunny day in the shade.	A little girl in stripes, overalls and pigtails is eating a piece of papaya in her hands on a sunny day in the shade.	a	b	c	d	e	neutral
+651	a	b	d	e	f	g	h	A little girl in stripes, overalls and pigtails is eating a piece of papaya in her hands on a sunny day in the shade.	A little girl in stripes, overalls and pigtails is eating a piece of fruit in her hands on a sunny day in the shade.	a	b	c	d	e	entailment
+652	a	b	d	e	f	g	h	A little girl in stripes, overalls and pigtails is eating a piece of fruit in her hands on a sunny day in the shade.	A little girl in stripes, overalls and pigtails is eating a piece of lime in her hands on a sunny day in the shade.	a	b	c	d	e	neutral
+653	a	b	d	e	f	g	h	A little girl in stripes, overalls and pigtails is eating a piece of lime in her hands on a sunny day in the shade.	A little girl in stripes, overalls and pigtails is eating a piece of fruit in her hands on a sunny day in the shade.	a	b	c	d	e	entailment
+654	a	b	d	e	f	g	h	A little girl in stripes, overalls and pigtails is eating a piece of fruit in her hands on a sunny day in the shade.	A little girl in stripes, overalls and pigtails is eating a piece of banana in her hands on a sunny day in the shade.	a	b	c	d	e	neutral
+655	a	b	d	e	f	g	h	A little girl in stripes, overalls and pigtails is eating a piece of banana in her hands on a sunny day in the shade.	A little girl in stripes, overalls and pigtails is eating a piece of fruit in her hands on a sunny day in the shade.	a	b	c	d	e	entailment
+656	a	b	d	e	f	g	h	A little girl in stripes, overalls and pigtails is eating a piece of fruit in her hands on a sunny day in the shade.	A little girl in stripes, overalls and pigtails is eating a piece of mango in her hands on a sunny day in the shade.	a	b	c	d	e	neutral
+657	a	b	d	e	f	g	h	A little girl in stripes, overalls and pigtails is eating a piece of mango in her hands on a sunny day in the shade.	A little girl in stripes, overalls and pigtails is eating a piece of fruit in her hands on a sunny day in the shade.	a	b	c	d	e	entailment
+658	a	b	d	e	f	g	h	A little girl in a floury, pink jacket, picks out a fruit from a vendors table.	A little girl in a floury, pink jacket, picks out a blackberry from a vendors table.	a	b	c	d	e	neutral
+659	a	b	d	e	f	g	h	A little girl in a floury, pink jacket, picks out a blackberry from a vendors table.	A little girl in a floury, pink jacket, picks out a fruit from a vendors table.	a	b	c	d	e	entailment
+660	a	b	d	e	f	g	h	A little girl in a floury, pink jacket, picks out a fruit from a vendors table.	A little girl in a floury, pink jacket, picks out a cantaloupe from a vendors table.	a	b	c	d	e	neutral
+661	a	b	d	e	f	g	h	A little girl in a floury, pink jacket, picks out a cantaloupe from a vendors table.	A little girl in a floury, pink jacket, picks out a fruit from a vendors table.	a	b	c	d	e	entailment
+662	a	b	d	e	f	g	h	A little girl in a floury, pink jacket, picks out a fruit from a vendors table.	A little girl in a floury, pink jacket, picks out a blueberry from a vendors table.	a	b	c	d	e	neutral
+663	a	b	d	e	f	g	h	A little girl in a floury, pink jacket, picks out a blueberry from a vendors table.	A little girl in a floury, pink jacket, picks out a fruit from a vendors table.	a	b	c	d	e	entailment
+664	a	b	d	e	f	g	h	A little girl in a floury, pink jacket, picks out a fruit from a vendors table.	A little girl in a floury, pink jacket, picks out a apple from a vendors table.	a	b	c	d	e	neutral
+665	a	b	d	e	f	g	h	A little girl in a floury, pink jacket, picks out a apple from a vendors table.	A little girl in a floury, pink jacket, picks out a fruit from a vendors table.	a	b	c	d	e	entailment
+666	a	b	d	e	f	g	h	A little girl in a floury, pink jacket, picks out a fruit from a vendors table.	A little girl in a floury, pink jacket, picks out a berry from a vendors table.	a	b	c	d	e	neutral
+667	a	b	d	e	f	g	h	A little girl in a floury, pink jacket, picks out a berry from a vendors table.	A little girl in a floury, pink jacket, picks out a fruit from a vendors table.	a	b	c	d	e	entailment
+668	a	b	d	e	f	g	h	A little girl in a floury, pink jacket, picks out a fruit from a vendors table.	A little girl in a floury, pink jacket, picks out a strawberry from a vendors table.	a	b	c	d	e	neutral
+669	a	b	d	e	f	g	h	A little girl in a floury, pink jacket, picks out a strawberry from a vendors table.	A little girl in a floury, pink jacket, picks out a fruit from a vendors table.	a	b	c	d	e	entailment
+670	a	b	d	e	f	g	h	A little girl in a floury, pink jacket, picks out a fruit from a vendors table.	A little girl in a floury, pink jacket, picks out a peach from a vendors table.	a	b	c	d	e	neutral
+671	a	b	d	e	f	g	h	A little girl in a floury, pink jacket, picks out a peach from a vendors table.	A little girl in a floury, pink jacket, picks out a fruit from a vendors table.	a	b	c	d	e	entailment
+672	a	b	d	e	f	g	h	A little girl in a floury, pink jacket, picks out a fruit from a vendors table.	A little girl in a floury, pink jacket, picks out a pear from a vendors table.	a	b	c	d	e	neutral
+673	a	b	d	e	f	g	h	A little girl in a floury, pink jacket, picks out a pear from a vendors table.	A little girl in a floury, pink jacket, picks out a fruit from a vendors table.	a	b	c	d	e	entailment
+674	a	b	d	e	f	g	h	A little girl in a floury, pink jacket, picks out a fruit from a vendors table.	A little girl in a floury, pink jacket, picks out a huckleberry from a vendors table.	a	b	c	d	e	neutral
+675	a	b	d	e	f	g	h	A little girl in a floury, pink jacket, picks out a huckleberry from a vendors table.	A little girl in a floury, pink jacket, picks out a fruit from a vendors table.	a	b	c	d	e	entailment
+676	a	b	d	e	f	g	h	A little girl in a floury, pink jacket, picks out a fruit from a vendors table.	A little girl in a floury, pink jacket, picks out a lemon from a vendors table.	a	b	c	d	e	neutral
+677	a	b	d	e	f	g	h	A little girl in a floury, pink jacket, picks out a lemon from a vendors table.	A little girl in a floury, pink jacket, picks out a fruit from a vendors table.	a	b	c	d	e	entailment
+678	a	b	d	e	f	g	h	A little girl in a floury, pink jacket, picks out a fruit from a vendors table.	A little girl in a floury, pink jacket, picks out a papaya from a vendors table.	a	b	c	d	e	neutral
+679	a	b	d	e	f	g	h	A little girl in a floury, pink jacket, picks out a papaya from a vendors table.	A little girl in a floury, pink jacket, picks out a fruit from a vendors table.	a	b	c	d	e	entailment
+680	a	b	d	e	f	g	h	A little girl in a floury, pink jacket, picks out a fruit from a vendors table.	A little girl in a floury, pink jacket, picks out a pineapple from a vendors table.	a	b	c	d	e	neutral
+681	a	b	d	e	f	g	h	A little girl in a floury, pink jacket, picks out a pineapple from a vendors table.	A little girl in a floury, pink jacket, picks out a fruit from a vendors table.	a	b	c	d	e	entailment
+682	a	b	d	e	f	g	h	A little girl in a floury, pink jacket, picks out a fruit from a vendors table.	A little girl in a floury, pink jacket, picks out a mango from a vendors table.	a	b	c	d	e	neutral
+683	a	b	d	e	f	g	h	A little girl in a floury, pink jacket, picks out a mango from a vendors table.	A little girl in a floury, pink jacket, picks out a fruit from a vendors table.	a	b	c	d	e	entailment
+684	a	b	d	e	f	g	h	A little girl in a floury, pink jacket, picks out a fruit from a vendors table.	A little girl in a floury, pink jacket, picks out a orange from a vendors table.	a	b	c	d	e	neutral
+685	a	b	d	e	f	g	h	A little girl in a floury, pink jacket, picks out a orange from a vendors table.	A little girl in a floury, pink jacket, picks out a fruit from a vendors table.	a	b	c	d	e	entailment
+686	a	b	d	e	f	g	h	A little girl in a floury, pink jacket, picks out a fruit from a vendors table.	A little girl in a floury, pink jacket, picks out a plum from a vendors table.	a	b	c	d	e	neutral
+687	a	b	d	e	f	g	h	A little girl in a floury, pink jacket, picks out a plum from a vendors table.	A little girl in a floury, pink jacket, picks out a fruit from a vendors table.	a	b	c	d	e	entailment
+688	a	b	d	e	f	g	h	A little girl in a floury, pink jacket, picks out a fruit from a vendors table.	A little girl in a floury, pink jacket, picks out a banana from a vendors table.	a	b	c	d	e	neutral
+689	a	b	d	e	f	g	h	A little girl in a floury, pink jacket, picks out a banana from a vendors table.	A little girl in a floury, pink jacket, picks out a fruit from a vendors table.	a	b	c	d	e	entailment
+690	a	b	d	e	f	g	h	A little girl in a floury, pink jacket, picks out a fruit from a vendors table.	A little girl in a floury, pink jacket, picks out a raspberry from a vendors table.	a	b	c	d	e	neutral
+691	a	b	d	e	f	g	h	A little girl in a floury, pink jacket, picks out a raspberry from a vendors table.	A little girl in a floury, pink jacket, picks out a fruit from a vendors table.	a	b	c	d	e	entailment
+692	a	b	d	e	f	g	h	A little girl in a floury, pink jacket, picks out a fruit from a vendors table.	A little girl in a floury, pink jacket, picks out a cranberry from a vendors table.	a	b	c	d	e	neutral
+693	a	b	d	e	f	g	h	A little girl in a floury, pink jacket, picks out a cranberry from a vendors table.	A little girl in a floury, pink jacket, picks out a fruit from a vendors table.	a	b	c	d	e	entailment
+694	a	b	d	e	f	g	h	A little girl in a floury, pink jacket, picks out a fruit from a vendors table.	A little girl in a floury, pink jacket, picks out a grape from a vendors table.	a	b	c	d	e	neutral
+695	a	b	d	e	f	g	h	A little girl in a floury, pink jacket, picks out a grape from a vendors table.	A little girl in a floury, pink jacket, picks out a fruit from a vendors table.	a	b	c	d	e	entailment
+696	a	b	d	e	f	g	h	A little girl in a floury, pink jacket, picks out a fruit from a vendors table.	A little girl in a floury, pink jacket, picks out a cherry from a vendors table.	a	b	c	d	e	neutral
+697	a	b	d	e	f	g	h	A little girl in a floury, pink jacket, picks out a cherry from a vendors table.	A little girl in a floury, pink jacket, picks out a fruit from a vendors table.	a	b	c	d	e	entailment
+698	a	b	d	e	f	g	h	A little girl in a floury, pink jacket, picks out a fruit from a vendors table.	A little girl in a floury, pink jacket, picks out a lime from a vendors table.	a	b	c	d	e	neutral
+699	a	b	d	e	f	g	h	A little girl in a floury, pink jacket, picks out a lime from a vendors table.	A little girl in a floury, pink jacket, picks out a fruit from a vendors table.	a	b	c	d	e	entailment
+700	a	b	d	e	f	g	h	A little girl in a floury, pink jacket, picks out a fruit from a vendors table.	A little girl in a floury, pink jacket, picks out a melon from a vendors table.	a	b	c	d	e	neutral
+701	a	b	d	e	f	g	h	A little girl in a floury, pink jacket, picks out a melon from a vendors table.	A little girl in a floury, pink jacket, picks out a fruit from a vendors table.	a	b	c	d	e	entailment
+702	a	b	d	e	f	g	h	Three people are sleeping in a mass-transit vehicle.	Three people are sleeping in a mass-transit seaplane.	a	b	c	d	e	neutral
+703	a	b	d	e	f	g	h	Three people are sleeping in a mass-transit seaplane.	Three people are sleeping in a mass-transit vehicle.	a	b	c	d	e	entailment
+704	a	b	d	e	f	g	h	Three people are sleeping in a mass-transit vehicle.	Three people are sleeping in a mass-transit yacht.	a	b	c	d	e	neutral
+705	a	b	d	e	f	g	h	Three people are sleeping in a mass-transit yacht.	Three people are sleeping in a mass-transit vehicle.	a	b	c	d	e	entailment
+706	a	b	d	e	f	g	h	Three people are sleeping in a mass-transit vehicle.	Three people are sleeping in a mass-transit cruiser.	a	b	c	d	e	neutral
+707	a	b	d	e	f	g	h	Three people are sleeping in a mass-transit cruiser.	Three people are sleeping in a mass-transit vehicle.	a	b	c	d	e	entailment
+708	a	b	d	e	f	g	h	Three people are sleeping in a mass-transit vehicle.	Three people are sleeping in a mass-transit ship.	a	b	c	d	e	neutral
+709	a	b	d	e	f	g	h	Three people are sleeping in a mass-transit ship.	Three people are sleeping in a mass-transit vehicle.	a	b	c	d	e	entailment
+710	a	b	d	e	f	g	h	Three people are sleeping in a mass-transit vehicle.	Three people are sleeping in a mass-transit van.	a	b	c	d	e	neutral
+711	a	b	d	e	f	g	h	Three people are sleeping in a mass-transit van.	Three people are sleeping in a mass-transit vehicle.	a	b	c	d	e	entailment
+712	a	b	d	e	f	g	h	Three people are sleeping in a mass-transit vehicle.	Three people are sleeping in a mass-transit helicopter.	a	b	c	d	e	neutral
+713	a	b	d	e	f	g	h	Three people are sleeping in a mass-transit helicopter.	Three people are sleeping in a mass-transit vehicle.	a	b	c	d	e	entailment
+714	a	b	d	e	f	g	h	Three people are sleeping in a mass-transit vehicle.	Three people are sleeping in a mass-transit airship.	a	b	c	d	e	neutral
+715	a	b	d	e	f	g	h	Three people are sleeping in a mass-transit airship.	Three people are sleeping in a mass-transit vehicle.	a	b	c	d	e	entailment
+716	a	b	d	e	f	g	h	Three people are sleeping in a mass-transit vehicle.	Three people are sleeping in a mass-transit bus.	a	b	c	d	e	neutral
+717	a	b	d	e	f	g	h	Three people are sleeping in a mass-transit bus.	Three people are sleeping in a mass-transit vehicle.	a	b	c	d	e	entailment
+718	a	b	d	e	f	g	h	A man buys food from a street vendor.	A man buys jam from a street vendor.	a	b	c	d	e	neutral
+719	a	b	d	e	f	g	h	A man buys jam from a street vendor.	A man buys food from a street vendor.	a	b	c	d	e	entailment
+720	a	b	d	e	f	g	h	A man buys food from a street vendor.	A man buys broth from a street vendor.	a	b	c	d	e	neutral
+721	a	b	d	e	f	g	h	A man buys broth from a street vendor.	A man buys food from a street vendor.	a	b	c	d	e	entailment
+722	a	b	d	e	f	g	h	A man buys food from a street vendor.	A man buys bread from a street vendor.	a	b	c	d	e	neutral
+723	a	b	d	e	f	g	h	A man buys bread from a street vendor.	A man buys food from a street vendor.	a	b	c	d	e	entailment
+724	a	b	d	e	f	g	h	A man buys food from a street vendor.	A man buys rye from a street vendor.	a	b	c	d	e	neutral
+725	a	b	d	e	f	g	h	A man buys rye from a street vendor.	A man buys food from a street vendor.	a	b	c	d	e	entailment
+726	a	b	d	e	f	g	h	A man buys food from a street vendor.	A man buys falafel from a street vendor.	a	b	c	d	e	neutral
+727	a	b	d	e	f	g	h	A man buys falafel from a street vendor.	A man buys food from a street vendor.	a	b	c	d	e	entailment
+728	a	b	d	e	f	g	h	A man buys food from a street vendor.	A man buys sushi from a street vendor.	a	b	c	d	e	neutral
+729	a	b	d	e	f	g	h	A man buys sushi from a street vendor.	A man buys food from a street vendor.	a	b	c	d	e	entailment
+730	a	b	d	e	f	g	h	A man buys food from a street vendor.	A man buys fondue from a street vendor.	a	b	c	d	e	neutral
+731	a	b	d	e	f	g	h	A man buys fondue from a street vendor.	A man buys food from a street vendor.	a	b	c	d	e	entailment
+732	a	b	d	e	f	g	h	A man buys food from a street vendor.	A man buys spaghetti from a street vendor.	a	b	c	d	e	neutral
+733	a	b	d	e	f	g	h	A man buys spaghetti from a street vendor.	A man buys food from a street vendor.	a	b	c	d	e	entailment
+734	a	b	d	e	f	g	h	A man buys food from a street vendor.	A man buys salsa from a street vendor.	a	b	c	d	e	neutral
+735	a	b	d	e	f	g	h	A man buys salsa from a street vendor.	A man buys food from a street vendor.	a	b	c	d	e	entailment
+736	a	b	d	e	f	g	h	A man buys food from a street vendor.	A man buys cereal from a street vendor.	a	b	c	d	e	neutral
+737	a	b	d	e	f	g	h	A man buys cereal from a street vendor.	A man buys food from a street vendor.	a	b	c	d	e	entailment
+738	a	b	d	e	f	g	h	A man buys food from a street vendor.	A man buys salad from a street vendor.	a	b	c	d	e	neutral
+739	a	b	d	e	f	g	h	A man buys salad from a street vendor.	A man buys food from a street vendor.	a	b	c	d	e	entailment
+740	a	b	d	e	f	g	h	A man buys food from a street vendor.	A man buys casserole from a street vendor.	a	b	c	d	e	neutral
+741	a	b	d	e	f	g	h	A man buys casserole from a street vendor.	A man buys food from a street vendor.	a	b	c	d	e	entailment
+742	a	b	d	e	f	g	h	A man buys food from a street vendor.	A man buys naan from a street vendor.	a	b	c	d	e	neutral
+743	a	b	d	e	f	g	h	A man buys naan from a street vendor.	A man buys food from a street vendor.	a	b	c	d	e	entailment
+744	a	b	d	e	f	g	h	A man buys food from a street vendor.	A man buys eggs from a street vendor.	a	b	c	d	e	neutral
+745	a	b	d	e	f	g	h	A man buys eggs from a street vendor.	A man buys food from a street vendor.	a	b	c	d	e	entailment
+746	a	b	d	e	f	g	h	A man buys food from a street vendor.	A man buys licorice from a street vendor.	a	b	c	d	e	neutral
+747	a	b	d	e	f	g	h	A man buys licorice from a street vendor.	A man buys food from a street vendor.	a	b	c	d	e	entailment
+748	a	b	d	e	f	g	h	A man buys food from a street vendor.	A man buys meatloaf from a street vendor.	a	b	c	d	e	neutral
+749	a	b	d	e	f	g	h	A man buys meatloaf from a street vendor.	A man buys food from a street vendor.	a	b	c	d	e	entailment
+750	a	b	d	e	f	g	h	A man buys food from a street vendor.	A man buys stew from a street vendor.	a	b	c	d	e	neutral
+751	a	b	d	e	f	g	h	A man buys stew from a street vendor.	A man buys food from a street vendor.	a	b	c	d	e	entailment
+752	a	b	d	e	f	g	h	A man buys food from a street vendor.	A man buys curry from a street vendor.	a	b	c	d	e	neutral
+753	a	b	d	e	f	g	h	A man buys curry from a street vendor.	A man buys food from a street vendor.	a	b	c	d	e	entailment
+754	a	b	d	e	f	g	h	A man buys food from a street vendor.	A man buys popcorn from a street vendor.	a	b	c	d	e	neutral
+755	a	b	d	e	f	g	h	A man buys popcorn from a street vendor.	A man buys food from a street vendor.	a	b	c	d	e	entailment
+756	a	b	d	e	f	g	h	A man buys food from a street vendor.	A man buys rice from a street vendor.	a	b	c	d	e	neutral
+757	a	b	d	e	f	g	h	A man buys rice from a street vendor.	A man buys food from a street vendor.	a	b	c	d	e	entailment
+758	a	b	d	e	f	g	h	A man buys food from a street vendor.	A man buys breakfast from a street vendor.	a	b	c	d	e	neutral
+759	a	b	d	e	f	g	h	A man buys breakfast from a street vendor.	A man buys food from a street vendor.	a	b	c	d	e	entailment
+760	a	b	d	e	f	g	h	A man buys food from a street vendor.	A man buys corn from a street vendor.	a	b	c	d	e	neutral
+761	a	b	d	e	f	g	h	A man buys corn from a street vendor.	A man buys food from a street vendor.	a	b	c	d	e	entailment
+762	a	b	d	e	f	g	h	A man buys food from a street vendor.	A man buys oatmeal from a street vendor.	a	b	c	d	e	neutral
+763	a	b	d	e	f	g	h	A man buys oatmeal from a street vendor.	A man buys food from a street vendor.	a	b	c	d	e	entailment
+764	a	b	d	e	f	g	h	A man buys food from a street vendor.	A man buys pasta from a street vendor.	a	b	c	d	e	neutral
+765	a	b	d	e	f	g	h	A man buys pasta from a street vendor.	A man buys food from a street vendor.	a	b	c	d	e	entailment
+766	a	b	d	e	f	g	h	A man wearing a red hat is holding an instrument up to his mouth.	A man wearing a red hat is holding an tuba up to his mouth.	a	b	c	d	e	neutral
+767	a	b	d	e	f	g	h	A man wearing a red hat is holding an tuba up to his mouth.	A man wearing a red hat is holding an instrument up to his mouth.	a	b	c	d	e	entailment
+768	a	b	d	e	f	g	h	A man wearing a red hat is holding an instrument up to his mouth.	A man wearing a red hat is holding an bass up to his mouth.	a	b	c	d	e	neutral
+769	a	b	d	e	f	g	h	A man wearing a red hat is holding an bass up to his mouth.	A man wearing a red hat is holding an instrument up to his mouth.	a	b	c	d	e	entailment
+770	a	b	d	e	f	g	h	A man wearing a red hat is holding an instrument up to his mouth.	A man wearing a red hat is holding an accordion up to his mouth.	a	b	c	d	e	neutral
+771	a	b	d	e	f	g	h	A man wearing a red hat is holding an accordion up to his mouth.	A man wearing a red hat is holding an instrument up to his mouth.	a	b	c	d	e	entailment
+772	a	b	d	e	f	g	h	A man wearing a red hat is holding an instrument up to his mouth.	A man wearing a red hat is holding an harmonica up to his mouth.	a	b	c	d	e	neutral
+773	a	b	d	e	f	g	h	A man wearing a red hat is holding an harmonica up to his mouth.	A man wearing a red hat is holding an instrument up to his mouth.	a	b	c	d	e	entailment
+774	a	b	d	e	f	g	h	A man wearing a red hat is holding an instrument up to his mouth.	A man wearing a red hat is holding an harpsichord up to his mouth.	a	b	c	d	e	neutral
+775	a	b	d	e	f	g	h	A man wearing a red hat is holding an harpsichord up to his mouth.	A man wearing a red hat is holding an instrument up to his mouth.	a	b	c	d	e	entailment
+776	a	b	d	e	f	g	h	A man wearing a red hat is holding an instrument up to his mouth.	A man wearing a red hat is holding an baritone up to his mouth.	a	b	c	d	e	neutral
+777	a	b	d	e	f	g	h	A man wearing a red hat is holding an baritone up to his mouth.	A man wearing a red hat is holding an instrument up to his mouth.	a	b	c	d	e	entailment
+778	a	b	d	e	f	g	h	A man wearing a red hat is holding an instrument up to his mouth.	A man wearing a red hat is holding an cymbal up to his mouth.	a	b	c	d	e	neutral
+779	a	b	d	e	f	g	h	A man wearing a red hat is holding an cymbal up to his mouth.	A man wearing a red hat is holding an instrument up to his mouth.	a	b	c	d	e	entailment
+780	a	b	d	e	f	g	h	A man wearing a red hat is holding an instrument up to his mouth.	A man wearing a red hat is holding an bagpipe up to his mouth.	a	b	c	d	e	neutral
+781	a	b	d	e	f	g	h	A man wearing a red hat is holding an bagpipe up to his mouth.	A man wearing a red hat is holding an instrument up to his mouth.	a	b	c	d	e	entailment
+782	a	b	d	e	f	g	h	A man wearing a red hat is holding an instrument up to his mouth.	A man wearing a red hat is holding an sousaphone up to his mouth.	a	b	c	d	e	neutral
+783	a	b	d	e	f	g	h	A man wearing a red hat is holding an sousaphone up to his mouth.	A man wearing a red hat is holding an instrument up to his mouth.	a	b	c	d	e	entailment
+784	a	b	d	e	f	g	h	A man wearing a red hat is holding an instrument up to his mouth.	A man wearing a red hat is holding an oboe up to his mouth.	a	b	c	d	e	neutral
+785	a	b	d	e	f	g	h	A man wearing a red hat is holding an oboe up to his mouth.	A man wearing a red hat is holding an instrument up to his mouth.	a	b	c	d	e	entailment
+786	a	b	d	e	f	g	h	A man wearing a red hat is holding an instrument up to his mouth.	A man wearing a red hat is holding an mandolin up to his mouth.	a	b	c	d	e	neutral
+787	a	b	d	e	f	g	h	A man wearing a red hat is holding an mandolin up to his mouth.	A man wearing a red hat is holding an instrument up to his mouth.	a	b	c	d	e	entailment
+788	a	b	d	e	f	g	h	A man wearing a red hat is holding an instrument up to his mouth.	A man wearing a red hat is holding an bongo up to his mouth.	a	b	c	d	e	neutral
+789	a	b	d	e	f	g	h	A man wearing a red hat is holding an bongo up to his mouth.	A man wearing a red hat is holding an instrument up to his mouth.	a	b	c	d	e	entailment
+790	a	b	d	e	f	g	h	A man wearing a red hat is holding an instrument up to his mouth.	A man wearing a red hat is holding an flute up to his mouth.	a	b	c	d	e	neutral
+791	a	b	d	e	f	g	h	A man wearing a red hat is holding an flute up to his mouth.	A man wearing a red hat is holding an instrument up to his mouth.	a	b	c	d	e	entailment
+792	a	b	d	e	f	g	h	A man wearing a red hat is holding an instrument up to his mouth.	A man wearing a red hat is holding an sitar up to his mouth.	a	b	c	d	e	neutral
+793	a	b	d	e	f	g	h	A man wearing a red hat is holding an sitar up to his mouth.	A man wearing a red hat is holding an instrument up to his mouth.	a	b	c	d	e	entailment
+794	a	b	d	e	f	g	h	A man wearing a red hat is holding an instrument up to his mouth.	A man wearing a red hat is holding an saxophone up to his mouth.	a	b	c	d	e	neutral
+795	a	b	d	e	f	g	h	A man wearing a red hat is holding an saxophone up to his mouth.	A man wearing a red hat is holding an instrument up to his mouth.	a	b	c	d	e	entailment
+796	a	b	d	e	f	g	h	A man wearing a red hat is holding an instrument up to his mouth.	A man wearing a red hat is holding an violin up to his mouth.	a	b	c	d	e	neutral
+797	a	b	d	e	f	g	h	A man wearing a red hat is holding an violin up to his mouth.	A man wearing a red hat is holding an instrument up to his mouth.	a	b	c	d	e	entailment
+798	a	b	d	e	f	g	h	A man wearing a red hat is holding an instrument up to his mouth.	A man wearing a red hat is holding an drum up to his mouth.	a	b	c	d	e	neutral
+799	a	b	d	e	f	g	h	A man wearing a red hat is holding an drum up to his mouth.	A man wearing a red hat is holding an instrument up to his mouth.	a	b	c	d	e	entailment
+800	a	b	d	e	f	g	h	A man wearing a red hat is holding an instrument up to his mouth.	A man wearing a red hat is holding an woodwind up to his mouth.	a	b	c	d	e	neutral
+801	a	b	d	e	f	g	h	A man wearing a red hat is holding an woodwind up to his mouth.	A man wearing a red hat is holding an instrument up to his mouth.	a	b	c	d	e	entailment
+802	a	b	d	e	f	g	h	A man wearing a red hat is holding an instrument up to his mouth.	A man wearing a red hat is holding an piccolo up to his mouth.	a	b	c	d	e	neutral
+803	a	b	d	e	f	g	h	A man wearing a red hat is holding an piccolo up to his mouth.	A man wearing a red hat is holding an instrument up to his mouth.	a	b	c	d	e	entailment
+804	a	b	d	e	f	g	h	A man wearing a red hat is holding an instrument up to his mouth.	A man wearing a red hat is holding an piano up to his mouth.	a	b	c	d	e	neutral
+805	a	b	d	e	f	g	h	A man wearing a red hat is holding an piano up to his mouth.	A man wearing a red hat is holding an instrument up to his mouth.	a	b	c	d	e	entailment
+806	a	b	d	e	f	g	h	A man wearing a red hat is holding an instrument up to his mouth.	A man wearing a red hat is holding an banjo up to his mouth.	a	b	c	d	e	neutral
+807	a	b	d	e	f	g	h	A man wearing a red hat is holding an banjo up to his mouth.	A man wearing a red hat is holding an instrument up to his mouth.	a	b	c	d	e	entailment
+808	a	b	d	e	f	g	h	A man wearing a red hat is holding an instrument up to his mouth.	A man wearing a red hat is holding an clarinet up to his mouth.	a	b	c	d	e	neutral
+809	a	b	d	e	f	g	h	A man wearing a red hat is holding an clarinet up to his mouth.	A man wearing a red hat is holding an instrument up to his mouth.	a	b	c	d	e	entailment
+810	a	b	d	e	f	g	h	A man wearing a red hat is holding an instrument up to his mouth.	A man wearing a red hat is holding an viola up to his mouth.	a	b	c	d	e	neutral
+811	a	b	d	e	f	g	h	A man wearing a red hat is holding an viola up to his mouth.	A man wearing a red hat is holding an instrument up to his mouth.	a	b	c	d	e	entailment
+812	a	b	d	e	f	g	h	A man wearing a red hat is holding an instrument up to his mouth.	A man wearing a red hat is holding an xylophone up to his mouth.	a	b	c	d	e	neutral
+813	a	b	d	e	f	g	h	A man wearing a red hat is holding an xylophone up to his mouth.	A man wearing a red hat is holding an instrument up to his mouth.	a	b	c	d	e	entailment
+814	a	b	d	e	f	g	h	A man wearing a red hat is holding an instrument up to his mouth.	A man wearing a red hat is holding an ukulele up to his mouth.	a	b	c	d	e	neutral
+815	a	b	d	e	f	g	h	A man wearing a red hat is holding an ukulele up to his mouth.	A man wearing a red hat is holding an instrument up to his mouth.	a	b	c	d	e	entailment
+816	a	b	d	e	f	g	h	A man wearing a red hat is holding an instrument up to his mouth.	A man wearing a red hat is holding an cornet up to his mouth.	a	b	c	d	e	neutral
+817	a	b	d	e	f	g	h	A man wearing a red hat is holding an cornet up to his mouth.	A man wearing a red hat is holding an instrument up to his mouth.	a	b	c	d	e	entailment
+818	a	b	d	e	f	g	h	A man wearing a red hat is holding an instrument up to his mouth.	A man wearing a red hat is holding an tambourine up to his mouth.	a	b	c	d	e	neutral
+819	a	b	d	e	f	g	h	A man wearing a red hat is holding an tambourine up to his mouth.	A man wearing a red hat is holding an instrument up to his mouth.	a	b	c	d	e	entailment
+820	a	b	d	e	f	g	h	A man wearing a red hat is holding an instrument up to his mouth.	A man wearing a red hat is holding an horn up to his mouth.	a	b	c	d	e	neutral
+821	a	b	d	e	f	g	h	A man wearing a red hat is holding an horn up to his mouth.	A man wearing a red hat is holding an instrument up to his mouth.	a	b	c	d	e	entailment
+822	a	b	d	e	f	g	h	A man wearing a red hat is holding an instrument up to his mouth.	A man wearing a red hat is holding an snare up to his mouth.	a	b	c	d	e	neutral
+823	a	b	d	e	f	g	h	A man wearing a red hat is holding an snare up to his mouth.	A man wearing a red hat is holding an instrument up to his mouth.	a	b	c	d	e	entailment
+824	a	b	d	e	f	g	h	A man wearing a red hat is holding an instrument up to his mouth.	A man wearing a red hat is holding an kazoo up to his mouth.	a	b	c	d	e	neutral
+825	a	b	d	e	f	g	h	A man wearing a red hat is holding an kazoo up to his mouth.	A man wearing a red hat is holding an instrument up to his mouth.	a	b	c	d	e	entailment
+826	a	b	d	e	f	g	h	A man wearing a red hat is holding an instrument up to his mouth.	A man wearing a red hat is holding an trombone up to his mouth.	a	b	c	d	e	neutral
+827	a	b	d	e	f	g	h	A man wearing a red hat is holding an trombone up to his mouth.	A man wearing a red hat is holding an instrument up to his mouth.	a	b	c	d	e	entailment
+828	a	b	d	e	f	g	h	A man wearing a red hat is holding an instrument up to his mouth.	A man wearing a red hat is holding an bassoon up to his mouth.	a	b	c	d	e	neutral
+829	a	b	d	e	f	g	h	A man wearing a red hat is holding an bassoon up to his mouth.	A man wearing a red hat is holding an instrument up to his mouth.	a	b	c	d	e	entailment
+830	a	b	d	e	f	g	h	A man wearing a red hat is holding an instrument up to his mouth.	A man wearing a red hat is holding an harp up to his mouth.	a	b	c	d	e	neutral
+831	a	b	d	e	f	g	h	A man wearing a red hat is holding an harp up to his mouth.	A man wearing a red hat is holding an instrument up to his mouth.	a	b	c	d	e	entailment
+832	a	b	d	e	f	g	h	A man wearing a red hat is holding an instrument up to his mouth.	A man wearing a red hat is holding an cello up to his mouth.	a	b	c	d	e	neutral
+833	a	b	d	e	f	g	h	A man wearing a red hat is holding an cello up to his mouth.	A man wearing a red hat is holding an instrument up to his mouth.	a	b	c	d	e	entailment
